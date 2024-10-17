@@ -1,0 +1,1001 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,0,3,"Heikkinen, Mr. John Bradley",male,18.1,4,6,472442,5.3398,D58,Q
+2,0,2,"Smith, Mr. Owen Harris",male,71.1,1,1,808507,21.1461,NaN,Q
+3,0,1,"Allen, Miss. Laina",female,34.4,2,2,888339,53.2965,NaN,C
+4,1,3,"Futrelle, Mrs. John Bradley",female,69.2,7,4,906012,28.4301,NaN,C
+5,0,3,"Brown, Mrs. Lily May Peel",female,49.9,6,3,113317,9.0213,E87,C
+6,1,3,"Braund, Mr. Owen Harris",male,32.8,5,3,519771,90.7669,NaN,C
+7,0,2,"Cumings, Mr. John Bradley",male,16.8,3,6,747118,42.0176,F78,C
+8,1,2,"Clark, Mr. William Henry",male,18.4,5,0,111164,56.7527,B157,Q
+9,1,3,"Cumings, Mr. Jacques Heath",male,18.0,4,1,177412,39.5345,NaN,S
+10,1,2,"Smith, Mr. Owen Harris",male,34.4,8,6,188118,65.777,E119,C
+11,0,2,"Brown, Mr. Jacques Heath",male,58.3,4,5,117911,29.3952,NaN,Q
+12,0,2,"Taylor, Miss. Florence Briggs",female,53.2,6,1,832143,66.284,NaN,S
+13,0,2,"Allen, Mr. William Henry",male,62.9,1,4,111400,26.0927,E37,S
+14,0,1,"Smith, Miss. Laina",female,1.8,6,4,988932,87.7856,F193,Q
+15,1,2,"Cumings, Mr. John Bradley",male,62.0,7,0,831554,69.1669,F44,C
+16,1,2,"Clark, Mr. John Bradley",male,8.2,2,5,710332,68.7369,NaN,C
+17,0,3,"Brown, Mr. William Henry",male,5.4,7,5,508938,19.5732,B4,C
+18,1,3,"Smith, Mr. Jacques Heath",male,22.0,5,2,341678,7.965,D19,Q
+19,1,1,"Brown, Mr. William Henry",male,56.1,6,3,745052,49.5862,F55,S
+20,1,3,"Futrelle, Mrs. Lily May Peel",female,45.7,7,5,778403,23.1069,G106,C
+21,0,2,"Clark, Mr. William Henry",male,61.5,8,5,513663,64.5147,NaN,C
+22,0,1,"Brown, Mr. John Bradley",male,48.5,2,4,339656,57.7826,A126,S
+23,1,3,"Brown, Mrs. Lily May Peel",female,38.2,8,0,608770,66.6573,B120,C
+24,0,3,"Brown, Miss. Florence Briggs",female,37.8,2,0,120952,67.1944,NaN,C
+25,0,1,"Allen, Mr. Jacques Heath",male,32.6,7,2,622915,85.0318,A153,S
+26,0,3,"Futrelle, Mrs. Lily May Peel",female,20.2,1,4,114500,83.7534,D182,S
+27,0,3,"Braund, Mr. Jacques Heath",male,3.2,5,5,252475,6.4638,NaN,S
+28,1,3,"Heikkinen, Miss. Florence Briggs",female,11.2,5,6,452791,68.6458,NaN,Q
+29,1,2,"Smith, Miss. Laina",female,13.4,4,2,609819,8.4349,F138,Q
+30,1,3,"Taylor, Mrs. Lily May Peel",female,70.3,2,2,616085,38.6882,G52,S
+31,0,3,"Brown, Miss. Florence Briggs",female,41.5,4,6,549837,55.5502,E44,C
+32,1,1,"Clark, Miss. Laina",female,66.7,6,6,714257,77.5955,C58,C
+33,0,3,"Brown, Mr. William Henry",male,56.1,3,2,557251,48.79,A178,Q
+34,0,1,"Taylor, Mrs. John Bradley",female,49.0,1,1,599662,28.9764,NaN,S
+35,1,1,"Smith, Mr. Owen Harris",male,21.9,2,6,709427,86.3683,A78,C
+36,1,1,"Cumings, Mr. John Bradley",male,15.1,6,2,580475,87.2349,NaN,Q
+37,1,2,"Taylor, Mr. Jacques Heath",male,29.6,6,4,262939,97.0501,E1,S
+38,0,2,"Brown, Mr. William Henry",male,6.7,5,1,851690,31.5906,NaN,Q
+39,0,3,"Taylor, Mr. Jacques Heath",male,78.3,4,0,722094,20.8711,NaN,C
+40,1,3,"Cumings, Mr. William Henry",male,19.5,5,0,407875,39.8284,NaN,S
+41,0,1,"Brown, Mrs. John Bradley",female,60.9,4,4,472859,10.8844,F3,Q
+42,1,3,"Cumings, Miss. Florence Briggs",female,54.0,4,0,900943,71.0106,C108,Q
+43,0,1,"Cumings, Miss. Florence Briggs",female,44.8,0,0,847826,28.2279,NaN,S
+44,0,3,"Clark, Mrs. Lily May Peel",female,35.1,6,6,757894,46.4338,NaN,S
+45,1,3,"Taylor, Mrs. Lily May Peel",female,36.3,2,6,121413,73.0926,NaN,S
+46,1,3,"Heikkinen, Mrs. John Bradley",female,40.2,5,1,535687,59.9813,F10,C
+47,1,3,"Braund, Mr. Owen Harris",male,23.8,2,2,377477,96.2619,E106,C
+48,1,3,"Brown, Mr. Owen Harris",male,41.0,3,0,505188,89.0786,NaN,C
+49,0,3,"Brown, Mrs. Lily May Peel",female,24.4,7,6,565361,71.6011,B22,C
+50,0,1,"Futrelle, Mr. John Bradley",male,55.3,2,2,419098,71.7644,D109,C
+51,0,3,"Taylor, Miss. Florence Briggs",female,78.2,4,5,129869,6.1785,NaN,Q
+52,1,2,"Braund, Miss. Laina",female,26.7,1,4,751276,45.428,E144,S
+53,1,2,"Clark, Mr. Jacques Heath",male,31.2,3,6,779874,79.7959,NaN,S
+54,1,3,"Smith, Mrs. Lily May Peel",female,54.2,8,2,238390,11.7603,G65,C
+55,0,3,"Futrelle, Mr. John Bradley",male,3.0,0,4,828538,56.7229,F73,Q
+56,0,1,"Futrelle, Mr. Jacques Heath",male,57.5,6,4,379673,11.8856,E34,Q
+57,0,2,"Allen, Mrs. Lily May Peel",female,76.8,6,5,945603,53.885,NaN,S
+58,1,3,"Heikkinen, Miss. Laina",female,18.2,4,3,984138,36.7642,E145,C
+59,1,2,"Braund, Mrs. Lily May Peel",female,79.4,7,1,470429,65.5657,NaN,C
+60,0,1,"Cumings, Mr. John Bradley",male,17.1,0,3,279122,26.8744,NaN,C
+61,0,3,"Taylor, Mr. John Bradley",male,15.2,4,4,634238,71.6659,C55,Q
+62,0,1,"Allen, Miss. Florence Briggs",female,55.2,2,2,834681,69.5596,NaN,C
+63,0,1,"Brown, Miss. Laina",female,58.7,7,2,671993,21.8148,E124,C
+64,1,2,"Heikkinen, Mr. William Henry",male,4.5,5,2,957154,31.7087,F185,C
+65,0,1,"Brown, Mr. John Bradley",male,75.9,3,5,632943,7.3448,F7,C
+66,1,2,"Cumings, Mr. William Henry",male,59.3,3,6,514465,18.7128,C26,C
+67,0,1,"Heikkinen, Mrs. Lily May Peel",female,24.4,4,2,759411,80.4512,NaN,S
+68,1,1,"Futrelle, Mr. William Henry",male,42.7,5,2,167281,28.1408,NaN,C
+69,0,3,"Smith, Miss. Laina",female,36.3,6,4,901832,20.0833,NaN,C
+70,0,2,"Taylor, Mr. Owen Harris",male,70.6,6,0,809273,22.7982,E77,C
+71,1,1,"Heikkinen, Miss. Florence Briggs",female,64.6,7,0,981638,48.4072,NaN,C
+72,1,2,"Clark, Mr. Owen Harris",male,68.3,6,5,238069,79.6215,NaN,Q
+73,1,2,"Brown, Mr. John Bradley",male,38.3,4,0,633666,58.4274,E27,Q
+74,0,2,"Allen, Mr. Jacques Heath",male,11.5,0,6,814230,25.5521,F157,Q
+75,0,3,"Futrelle, Mrs. John Bradley",female,75.9,3,2,988376,73.7435,NaN,C
+76,1,1,"Brown, Mr. William Henry",male,41.6,2,3,681210,24.3424,G90,S
+77,1,1,"Braund, Mr. Owen Harris",male,35.1,6,1,554477,18.7364,G108,C
+78,1,1,"Clark, Mrs. John Bradley",female,64.7,1,0,369531,91.7536,NaN,S
+79,0,2,"Heikkinen, Miss. Florence Briggs",female,10.6,6,0,652254,12.6862,B51,Q
+80,0,3,"Futrelle, Mr. John Bradley",male,3.0,2,5,230928,96.3209,NaN,Q
+81,1,3,"Brown, Mrs. Lily May Peel",female,30.0,6,5,322025,77.623,NaN,Q
+82,0,3,"Cumings, Mrs. Lily May Peel",female,76.7,7,1,704696,61.0507,NaN,S
+83,1,3,"Smith, Mr. Jacques Heath",male,28.9,1,1,866571,88.0309,G75,C
+84,1,2,"Taylor, Miss. Laina",female,12.5,7,4,980325,74.8507,B12,Q
+85,0,3,"Clark, Miss. Florence Briggs",female,2.9,8,2,905677,45.0187,NaN,S
+86,1,3,"Brown, Mrs. John Bradley",female,2.1,3,1,283247,63.3492,D139,S
+87,1,2,"Futrelle, Mrs. John Bradley",female,2.7,0,2,252287,56.9552,NaN,C
+88,0,2,"Clark, Miss. Laina",female,13.4,2,0,728354,35.732,NaN,Q
+89,0,1,"Clark, Mr. William Henry",male,63.3,4,6,843122,29.2229,NaN,C
+90,0,2,"Smith, Mr. John Bradley",male,75.1,1,1,263708,99.0532,NaN,C
+91,1,3,"Braund, Mr. William Henry",male,8.1,8,0,400109,74.8447,NaN,C
+92,1,1,"Futrelle, Mrs. Lily May Peel",female,54.2,2,5,672915,61.3204,C172,C
+93,1,3,"Smith, Mr. William Henry",male,71.9,6,6,981378,6.8228,NaN,C
+94,1,3,"Clark, Mr. John Bradley",male,76.0,3,2,237260,78.635,E123,C
+95,0,3,"Clark, Mr. Jacques Heath",male,58.9,6,3,214766,48.6298,D108,Q
+96,1,1,"Braund, Mr. John Bradley",male,11.7,8,0,774699,93.3062,NaN,S
+97,0,1,"Braund, Mrs. John Bradley",female,49.4,8,0,272735,61.2232,NaN,S
+98,0,2,"Brown, Miss. Laina",female,31.5,0,0,567567,11.8606,A149,S
+99,0,1,"Clark, Miss. Florence Briggs",female,40.0,1,3,925042,67.5396,NaN,S
+100,1,3,"Allen, Mr. John Bradley",male,47.7,6,2,355487,81.464,A140,Q
+101,1,2,"Brown, Mr. William Henry",male,16.9,0,5,654031,43.1945,NaN,Q
+102,1,1,"Braund, Mr. John Bradley",male,58.5,6,5,205392,44.5575,D2,Q
+103,1,1,"Taylor, Miss. Laina",female,7.7,7,0,541958,84.0905,C80,S
+104,0,2,"Braund, Mr. William Henry",male,55.6,8,0,346640,14.0988,NaN,Q
+105,1,1,"Heikkinen, Mrs. Lily May Peel",female,43.2,8,5,462901,14.0562,G8,S
+106,1,1,"Smith, Miss. Laina",female,1.9,6,6,372351,21.3193,NaN,S
+107,1,2,"Smith, Mr. John Bradley",male,77.1,2,6,430013,86.0189,D16,Q
+108,0,3,"Heikkinen, Mr. William Henry",male,54.1,2,3,711316,55.0579,NaN,S
+109,1,3,"Taylor, Miss. Laina",female,17.2,3,2,781426,50.3416,NaN,Q
+110,1,3,"Futrelle, Mr. William Henry",male,1.8,0,1,909430,17.6846,B53,Q
+111,0,2,"Heikkinen, Mr. Jacques Heath",male,13.4,8,2,649081,59.9536,NaN,C
+112,1,1,"Heikkinen, Mr. John Bradley",male,37.0,6,5,946580,67.2226,G153,C
+113,1,3,"Clark, Mrs. Lily May Peel",female,40.8,1,1,973673,27.4878,G156,Q
+114,0,3,"Taylor, Mrs. John Bradley",female,40.9,2,5,208291,69.4255,NaN,Q
+115,1,1,"Cumings, Mrs. John Bradley",female,10.2,3,3,951610,39.7259,NaN,Q
+116,1,2,"Smith, Mr. Owen Harris",male,23.6,1,1,457934,15.9815,A38,Q
+117,0,3,"Allen, Mrs. Lily May Peel",female,1.6,5,6,787605,8.888,NaN,Q
+118,0,3,"Brown, Mr. Jacques Heath",male,45.7,1,2,970403,32.4554,B48,Q
+119,1,3,"Smith, Mrs. John Bradley",female,24.7,2,2,250978,92.7516,NaN,Q
+120,0,2,"Brown, Mr. Owen Harris",male,21.3,6,6,583840,25.5632,B198,S
+121,1,3,"Brown, Mr. John Bradley",male,67.4,1,4,912821,58.3686,A95,Q
+122,1,1,"Allen, Mrs. John Bradley",female,36.8,4,3,771360,13.3487,NaN,C
+123,0,2,"Braund, Mrs. John Bradley",female,79.4,7,6,442866,77.5248,G75,S
+124,0,3,"Braund, Mrs. Lily May Peel",female,45.4,6,0,724239,77.6338,F145,C
+125,1,2,"Heikkinen, Mr. John Bradley",male,75.6,8,3,545180,52.3785,NaN,C
+126,1,2,"Clark, Mr. Owen Harris",male,48.7,3,6,455898,52.7868,C87,S
+127,1,2,"Taylor, Miss. Laina",female,5.5,1,3,446154,95.5877,NaN,S
+128,1,3,"Taylor, Mr. John Bradley",male,4.2,8,1,712450,24.0798,NaN,S
+129,1,1,"Allen, Mrs. Lily May Peel",female,22.0,3,6,112341,7.8984,NaN,C
+130,1,2,"Braund, Mr. William Henry",male,68.1,8,2,579798,87.6006,B71,S
+131,0,2,"Futrelle, Mrs. Lily May Peel",female,12.0,5,0,172165,83.8701,G183,S
+132,0,2,"Cumings, Mr. John Bradley",male,63.3,4,0,498492,29.7019,C41,Q
+133,1,2,"Taylor, Mr. Owen Harris",male,63.8,7,4,730387,25.4753,D132,S
+134,0,3,"Allen, Mr. Jacques Heath",male,3.6,3,3,596561,46.0708,D102,C
+135,0,1,"Allen, Mr. William Henry",male,19.5,2,3,925778,59.2352,C113,C
+136,0,2,"Brown, Mr. John Bradley",male,62.2,1,5,549929,60.3245,F99,Q
+137,1,3,"Taylor, Mr. Jacques Heath",male,43.8,6,3,826232,24.6356,B110,C
+138,1,1,"Allen, Mr. Jacques Heath",male,27.5,0,2,240175,45.8606,NaN,C
+139,1,3,"Taylor, Miss. Florence Briggs",female,48.1,0,3,381790,91.539,NaN,Q
+140,1,2,"Allen, Mrs. Lily May Peel",female,41.6,4,6,317745,69.6514,B119,S
+141,0,1,"Futrelle, Mr. Jacques Heath",male,60.3,1,6,113865,88.2591,D87,C
+142,0,1,"Cumings, Miss. Laina",female,18.3,0,3,972156,47.0193,F121,S
+143,1,1,"Allen, Miss. Laina",female,61.9,3,3,224205,43.8673,NaN,S
+144,0,2,"Heikkinen, Mr. Owen Harris",male,22.6,8,4,634382,45.5896,NaN,C
+145,1,2,"Taylor, Mr. John Bradley",male,76.6,2,0,648645,20.5712,B107,Q
+146,1,1,"Braund, Mrs. John Bradley",female,55.4,3,2,397138,72.4416,B172,S
+147,1,2,"Futrelle, Mrs. Lily May Peel",female,53.8,7,2,266515,7.7295,B44,S
+148,0,2,"Allen, Mr. John Bradley",male,53.5,4,1,926400,65.1966,F28,Q
+149,0,2,"Heikkinen, Mr. Owen Harris",male,23.3,1,4,163240,19.7028,NaN,C
+150,0,1,"Futrelle, Mrs. Lily May Peel",female,46.3,3,6,627901,22.3304,B65,S
+151,1,2,"Heikkinen, Mrs. John Bradley",female,25.1,3,4,870393,15.2537,NaN,C
+152,0,2,"Cumings, Mr. William Henry",male,65.7,7,2,431622,49.3193,B80,Q
+153,0,2,"Brown, Mr. Owen Harris",male,53.1,4,1,415586,50.0312,G196,Q
+154,0,2,"Futrelle, Mr. William Henry",male,47.0,3,3,790121,23.4334,E62,Q
+155,0,1,"Taylor, Mr. William Henry",male,32.1,5,4,292519,21.6283,NaN,C
+156,0,2,"Heikkinen, Mr. John Bradley",male,34.8,6,5,831944,88.4513,NaN,S
+157,0,3,"Clark, Mrs. Lily May Peel",female,48.5,5,1,170791,70.0013,E42,S
+158,1,1,"Clark, Mrs. Lily May Peel",female,74.1,2,0,201921,24.9243,NaN,S
+159,1,3,"Taylor, Mr. Jacques Heath",male,35.1,2,0,695011,75.5232,NaN,C
+160,1,1,"Futrelle, Miss. Florence Briggs",female,15.2,6,0,593169,44.1287,B178,C
+161,1,3,"Brown, Miss. Florence Briggs",female,58.8,0,3,901041,53.4228,NaN,S
+162,1,2,"Clark, Mr. William Henry",male,58.6,4,5,328407,28.1782,NaN,S
+163,1,2,"Heikkinen, Mrs. John Bradley",female,42.0,7,5,722903,20.792,A117,C
+164,0,1,"Taylor, Mr. Jacques Heath",male,45.3,7,6,397693,20.7352,F145,Q
+165,1,2,"Allen, Mr. Jacques Heath",male,5.1,4,5,834083,11.4806,NaN,Q
+166,1,2,"Braund, Mr. Jacques Heath",male,32.5,3,1,801937,58.3826,NaN,C
+167,1,2,"Heikkinen, Mrs. Lily May Peel",female,11.2,5,6,498029,14.171,G99,C
+168,0,3,"Braund, Mrs. John Bradley",female,38.1,3,5,433299,10.9199,NaN,Q
+169,0,1,"Brown, Mrs. John Bradley",female,60.0,1,4,730489,83.1941,B87,Q
+170,0,1,"Smith, Mr. Jacques Heath",male,45.2,5,4,716601,15.4484,NaN,S
+171,1,1,"Taylor, Mr. Jacques Heath",male,50.4,2,1,504799,5.2723,F181,S
+172,0,2,"Futrelle, Mrs. Lily May Peel",female,51.5,3,0,889215,21.2184,NaN,Q
+173,0,2,"Cumings, Mr. Owen Harris",male,49.0,6,4,511285,40.1051,NaN,C
+174,1,1,"Brown, Mr. John Bradley",male,38.2,6,3,378531,58.4436,G182,Q
+175,1,1,"Clark, Miss. Florence Briggs",female,37.1,5,2,719769,37.5483,NaN,Q
+176,0,3,"Brown, Mr. William Henry",male,66.8,1,4,862015,13.7036,F166,S
+177,1,2,"Allen, Miss. Florence Briggs",female,60.6,3,5,189823,59.4303,NaN,C
+178,0,3,"Cumings, Mrs. John Bradley",female,7.5,2,1,878069,14.9501,F147,Q
+179,0,3,"Clark, Miss. Florence Briggs",female,10.4,8,3,385507,92.326,NaN,Q
+180,0,1,"Heikkinen, Mrs. Lily May Peel",female,2.0,6,4,603289,6.0961,C134,Q
+181,0,1,"Clark, Miss. Florence Briggs",female,7.6,2,3,789822,14.0956,A62,S
+182,0,1,"Cumings, Mr. John Bradley",male,7.2,1,0,342810,5.063,NaN,S
+183,0,3,"Allen, Mr. John Bradley",male,78.5,3,1,545679,67.2401,NaN,C
+184,1,1,"Allen, Miss. Florence Briggs",female,57.0,1,5,802491,67.403,NaN,S
+185,1,2,"Cumings, Mr. Jacques Heath",male,77.6,0,0,370810,70.4228,NaN,Q
+186,0,2,"Clark, Mrs. Lily May Peel",female,43.6,8,3,444310,97.0252,F142,Q
+187,1,3,"Braund, Mrs. John Bradley",female,52.4,2,2,380644,76.8842,NaN,S
+188,0,1,"Heikkinen, Mr. Owen Harris",male,2.6,6,1,781854,5.9707,NaN,C
+189,0,3,"Taylor, Mr. John Bradley",male,78.7,5,3,464285,88.9638,NaN,C
+190,1,2,"Clark, Mrs. Lily May Peel",female,39.0,0,4,926353,87.3149,G33,S
+191,1,3,"Futrelle, Mr. William Henry",male,16.4,0,3,646949,71.9004,NaN,Q
+192,1,2,"Braund, Mr. William Henry",male,42.0,3,6,507807,78.8607,NaN,S
+193,1,3,"Brown, Mr. John Bradley",male,71.4,1,2,181209,25.1544,NaN,C
+194,1,1,"Cumings, Mrs. John Bradley",female,18.1,1,2,469490,11.6151,E111,Q
+195,0,1,"Braund, Mr. Owen Harris",male,40.8,8,4,935341,51.9931,A9,S
+196,1,2,"Futrelle, Mrs. John Bradley",female,17.0,0,6,168036,81.1061,NaN,Q
+197,0,1,"Braund, Miss. Laina",female,59.1,7,0,556164,56.7547,D99,C
+198,1,1,"Brown, Miss. Florence Briggs",female,31.9,5,5,595664,82.5413,NaN,Q
+199,1,2,"Taylor, Mrs. John Bradley",female,50.5,0,4,917286,34.9478,E42,S
+200,0,3,"Clark, Mr. Jacques Heath",male,3.9,4,6,380361,9.9014,NaN,C
+201,0,1,"Braund, Miss. Florence Briggs",female,7.7,1,2,576351,70.0149,NaN,Q
+202,1,1,"Brown, Mrs. John Bradley",female,47.3,6,4,554116,6.9261,E135,S
+203,1,1,"Heikkinen, Mr. Owen Harris",male,71.2,0,5,287109,30.1992,NaN,Q
+204,1,2,"Braund, Mr. William Henry",male,29.3,3,2,614264,71.5855,NaN,Q
+205,0,1,"Braund, Mr. William Henry",male,73.3,3,1,383562,58.1762,E144,S
+206,0,1,"Futrelle, Mr. Owen Harris",male,30.9,4,3,404064,96.8513,F125,Q
+207,1,1,"Futrelle, Mr. Jacques Heath",male,69.7,5,4,228605,73.8887,NaN,C
+208,1,2,"Brown, Mr. William Henry",male,24.5,1,6,243434,76.9549,NaN,Q
+209,0,1,"Smith, Mr. John Bradley",male,79.1,1,2,381838,10.9313,NaN,S
+210,0,2,"Braund, Mrs. Lily May Peel",female,67.7,6,1,381246,86.7534,NaN,Q
+211,1,3,"Brown, Mr. John Bradley",male,33.3,0,1,229378,58.5269,D178,C
+212,1,2,"Clark, Mrs. John Bradley",female,69.8,1,5,242576,37.5615,NaN,C
+213,0,3,"Clark, Miss. Laina",female,35.1,5,6,276466,9.3305,NaN,Q
+214,0,3,"Brown, Miss. Laina",female,48.4,4,3,439515,23.5738,NaN,S
+215,0,1,"Cumings, Mrs. John Bradley",female,40.4,1,6,666832,6.7868,G86,S
+216,1,3,"Allen, Miss. Laina",female,75.5,7,3,432609,29.4623,NaN,Q
+217,1,1,"Smith, Mrs. John Bradley",female,33.4,7,5,695182,86.8937,G131,C
+218,0,3,"Cumings, Mrs. John Bradley",female,14.7,5,6,940400,15.2148,F25,Q
+219,1,3,"Heikkinen, Mr. William Henry",male,18.7,0,5,719125,65.6855,C96,C
+220,1,3,"Heikkinen, Mr. Owen Harris",male,36.1,6,4,652525,23.4953,NaN,C
+221,1,1,"Taylor, Mr. John Bradley",male,43.6,4,6,394048,39.3813,A95,Q
+222,0,1,"Braund, Mr. Jacques Heath",male,70.3,1,5,120310,50.954,B186,S
+223,0,1,"Heikkinen, Mr. Jacques Heath",male,32.7,6,4,639289,43.9302,A2,Q
+224,0,3,"Futrelle, Mr. John Bradley",male,14.7,5,0,202096,88.719,C158,C
+225,1,2,"Brown, Miss. Florence Briggs",female,46.3,5,5,464409,68.5708,G12,S
+226,1,3,"Clark, Mrs. John Bradley",female,53.1,1,5,956746,13.8975,NaN,S
+227,0,2,"Cumings, Mr. Owen Harris",male,61.9,5,2,496498,82.9107,D160,Q
+228,0,1,"Heikkinen, Mr. William Henry",male,17.6,6,3,507648,98.068,C9,S
+229,0,1,"Heikkinen, Mrs. John Bradley",female,9.6,8,2,135795,59.1569,A6,Q
+230,0,2,"Heikkinen, Miss. Florence Briggs",female,64.6,0,3,326045,73.8008,G73,C
+231,1,1,"Futrelle, Mrs. Lily May Peel",female,37.4,7,6,436192,59.348,NaN,C
+232,0,1,"Heikkinen, Mr. John Bradley",male,61.5,0,5,890655,37.9344,D80,Q
+233,0,1,"Cumings, Miss. Florence Briggs",female,47.1,5,1,920725,87.6748,NaN,Q
+234,0,1,"Smith, Miss. Laina",female,63.2,5,6,893090,43.5451,D113,C
+235,0,3,"Cumings, Miss. Florence Briggs",female,64.8,2,3,108492,40.3942,C34,S
+236,1,1,"Allen, Miss. Laina",female,53.9,8,4,482633,86.3511,F186,Q
+237,0,2,"Clark, Mr. Owen Harris",male,49.4,4,6,920882,83.6874,NaN,Q
+238,0,1,"Smith, Mr. William Henry",male,60.8,2,6,552951,58.2107,B100,S
+239,0,1,"Cumings, Mrs. Lily May Peel",female,63.0,8,3,297527,17.8792,NaN,Q
+240,0,1,"Allen, Mr. William Henry",male,15.2,7,1,787800,27.9859,A169,C
+241,0,2,"Taylor, Mrs. Lily May Peel",female,70.5,7,1,240728,34.6745,NaN,S
+242,0,1,"Allen, Mr. John Bradley",male,77.9,2,5,266603,35.4601,NaN,C
+243,0,3,"Heikkinen, Mr. William Henry",male,48.5,8,4,195869,99.6758,C133,Q
+244,1,2,"Cumings, Mr. Jacques Heath",male,34.8,7,1,982755,13.6614,NaN,Q
+245,1,2,"Allen, Mr. Owen Harris",male,9.0,1,0,899644,29.3607,B106,Q
+246,1,2,"Smith, Miss. Florence Briggs",female,78.0,8,6,258495,31.3848,F96,S
+247,0,3,"Smith, Mr. William Henry",male,69.9,6,4,949061,14.7451,B5,Q
+248,1,3,"Futrelle, Mr. John Bradley",male,36.9,3,2,649047,32.4139,NaN,S
+249,0,2,"Cumings, Mrs. John Bradley",female,2.5,2,1,936962,18.858,F193,Q
+250,1,1,"Braund, Mr. Owen Harris",male,77.0,0,5,590173,91.3147,NaN,C
+251,1,2,"Clark, Mr. John Bradley",male,76.7,2,4,742054,91.969,D168,S
+252,0,2,"Brown, Mr. William Henry",male,64.3,0,4,655914,44.9528,F154,S
+253,1,2,"Braund, Mr. William Henry",male,53.3,1,6,238816,58.2453,NaN,S
+254,1,2,"Braund, Miss. Laina",female,59.2,3,5,989580,69.0079,NaN,Q
+255,0,2,"Brown, Mr. John Bradley",male,48.3,6,1,911820,30.9175,G91,C
+256,0,2,"Cumings, Mrs. Lily May Peel",female,26.7,5,5,347270,39.6953,NaN,S
+257,0,2,"Brown, Miss. Florence Briggs",female,66.3,4,5,144816,85.2789,NaN,C
+258,1,3,"Heikkinen, Mr. William Henry",male,68.2,5,5,126163,17.4293,B175,Q
+259,1,2,"Cumings, Mr. William Henry",male,50.8,0,4,298160,74.7493,B104,S
+260,1,3,"Futrelle, Mrs. John Bradley",female,39.3,8,4,448366,37.6246,B181,S
+261,0,1,"Taylor, Miss. Laina",female,27.2,8,2,660961,9.4777,NaN,S
+262,1,1,"Cumings, Mr. William Henry",male,74.8,2,2,959351,83.6657,NaN,C
+263,1,1,"Heikkinen, Mr. Jacques Heath",male,19.7,8,0,455501,27.8882,NaN,C
+264,0,2,"Braund, Mr. Owen Harris",male,5.4,2,3,606678,65.1912,C184,C
+265,0,3,"Heikkinen, Miss. Laina",female,43.5,7,2,295047,62.7633,NaN,C
+266,0,3,"Allen, Mr. John Bradley",male,68.1,2,0,396730,12.227,NaN,S
+267,1,1,"Allen, Mr. William Henry",male,62.2,7,1,641480,25.7802,NaN,C
+268,0,2,"Clark, Miss. Florence Briggs",female,76.2,1,0,504805,51.1186,NaN,C
+269,0,2,"Allen, Mr. William Henry",male,27.3,4,4,372238,34.4524,NaN,Q
+270,1,1,"Smith, Miss. Laina",female,33.8,7,6,316008,53.3032,D2,Q
+271,0,3,"Smith, Mr. Jacques Heath",male,72.9,7,0,781205,74.5832,NaN,S
+272,1,3,"Taylor, Mr. Jacques Heath",male,63.4,1,5,479408,37.4771,E149,Q
+273,1,3,"Clark, Miss. Florence Briggs",female,63.3,6,5,985209,39.7821,E64,S
+274,0,2,"Cumings, Mr. Jacques Heath",male,73.2,5,1,180088,6.0177,A168,C
+275,0,3,"Braund, Mr. Jacques Heath",male,73.1,6,2,321301,71.8615,F30,S
+276,0,1,"Braund, Mr. John Bradley",male,36.9,8,4,176878,34.0139,NaN,C
+277,1,3,"Cumings, Mr. Owen Harris",male,18.0,7,0,911792,46.5751,B87,C
+278,0,1,"Smith, Mr. John Bradley",male,69.4,3,2,391076,98.9832,NaN,C
+279,1,3,"Smith, Mr. Owen Harris",male,53.7,8,1,914034,68.1076,F50,C
+280,0,1,"Cumings, Mrs. Lily May Peel",female,3.8,2,6,843106,16.8237,NaN,C
+281,1,3,"Cumings, Mr. John Bradley",male,43.2,3,0,313137,37.9299,NaN,S
+282,0,1,"Futrelle, Mr. William Henry",male,63.4,4,0,482883,7.589,NaN,C
+283,0,2,"Allen, Miss. Laina",female,35.7,4,6,564121,37.6843,NaN,C
+284,0,2,"Allen, Miss. Florence Briggs",female,22.4,1,3,808927,43.2248,NaN,Q
+285,0,1,"Brown, Miss. Florence Briggs",female,59.2,0,3,825087,16.7489,G143,C
+286,0,1,"Allen, Mrs. Lily May Peel",female,12.1,7,0,486868,86.5092,NaN,Q
+287,1,3,"Allen, Mr. Jacques Heath",male,33.4,1,3,576773,90.1957,NaN,Q
+288,1,1,"Allen, Mr. Jacques Heath",male,40.5,7,2,318763,78.2993,C138,C
+289,1,3,"Futrelle, Mrs. Lily May Peel",female,12.1,6,1,612903,37.4636,A192,C
+290,0,2,"Brown, Mrs. John Bradley",female,76.5,2,3,163691,42.5208,NaN,S
+291,1,3,"Cumings, Miss. Florence Briggs",female,16.6,4,6,863311,95.9267,A131,Q
+292,0,2,"Taylor, Mr. John Bradley",male,38.7,4,3,108449,33.2317,NaN,C
+293,0,2,"Braund, Mr. Jacques Heath",male,79.6,8,5,838610,51.6997,NaN,Q
+294,0,2,"Braund, Mr. Jacques Heath",male,21.8,5,1,682622,51.3546,E200,C
+295,1,3,"Futrelle, Mr. John Bradley",male,12.3,3,6,877006,32.4286,NaN,C
+296,0,2,"Braund, Mrs. John Bradley",female,64.5,4,1,826268,79.5186,NaN,Q
+297,1,2,"Futrelle, Miss. Florence Briggs",female,19.6,1,4,707393,53.6378,NaN,Q
+298,1,2,"Smith, Miss. Laina",female,35.0,0,5,467221,17.6123,D183,Q
+299,1,3,"Taylor, Mr. Jacques Heath",male,20.7,3,3,219611,34.4244,E187,C
+300,1,1,"Cumings, Miss. Laina",female,60.7,7,2,224072,15.0417,NaN,C
+301,1,2,"Taylor, Miss. Laina",female,50.3,4,6,959483,8.4244,NaN,C
+302,0,1,"Futrelle, Miss. Laina",female,63.2,3,2,485671,95.5118,NaN,Q
+303,1,2,"Allen, Miss. Laina",female,5.1,3,3,905471,80.9915,D144,S
+304,0,1,"Clark, Mr. Jacques Heath",male,26.6,2,5,727179,96.8932,G132,Q
+305,0,2,"Heikkinen, Mr. John Bradley",male,78.2,6,2,319149,54.5269,D29,Q
+306,0,3,"Heikkinen, Mr. John Bradley",male,30.8,8,2,430662,33.3497,G2,Q
+307,0,2,"Heikkinen, Mr. John Bradley",male,2.0,5,4,249951,37.8508,E130,Q
+308,0,2,"Brown, Mrs. Lily May Peel",female,20.7,0,6,487489,27.6591,NaN,Q
+309,0,3,"Allen, Mrs. John Bradley",female,64.0,1,0,764920,28.2319,NaN,C
+310,0,3,"Allen, Mr. John Bradley",male,14.4,3,5,231828,35.1615,NaN,C
+311,0,3,"Allen, Mr. Owen Harris",male,16.2,6,6,566827,80.6803,A197,C
+312,1,1,"Futrelle, Miss. Florence Briggs",female,14.5,0,0,564020,44.1915,NaN,S
+313,1,3,"Clark, Mr. William Henry",male,32.6,6,1,711025,92.4293,B78,Q
+314,0,1,"Heikkinen, Mrs. Lily May Peel",female,24.1,8,1,184971,49.7551,F189,Q
+315,1,3,"Heikkinen, Mr. Owen Harris",male,15.8,6,5,338485,91.9338,C183,C
+316,0,3,"Brown, Miss. Florence Briggs",female,55.4,4,1,549330,83.3536,A48,Q
+317,0,2,"Cumings, Miss. Laina",female,52.6,1,3,669704,39.2079,NaN,Q
+318,1,1,"Futrelle, Mr. Owen Harris",male,76.8,0,1,624645,58.4289,D129,S
+319,0,2,"Taylor, Mr. Owen Harris",male,76.5,8,3,571705,11.3175,E61,S
+320,1,2,"Smith, Mr. Jacques Heath",male,28.0,6,0,288650,21.8832,G102,C
+321,1,2,"Smith, Miss. Laina",female,62.6,0,3,733944,7.7425,NaN,Q
+322,1,1,"Futrelle, Mr. John Bradley",male,31.7,4,6,809793,69.7377,NaN,C
+323,1,1,"Heikkinen, Mrs. Lily May Peel",female,2.5,7,6,871187,18.6261,NaN,S
+324,0,2,"Braund, Mr. William Henry",male,54.7,1,4,691501,99.2013,B152,S
+325,1,3,"Cumings, Mr. Owen Harris",male,42.5,0,4,477054,54.961,NaN,C
+326,0,3,"Brown, Miss. Laina",female,31.3,3,5,922205,79.1044,NaN,Q
+327,0,2,"Brown, Mr. Jacques Heath",male,1.8,7,2,996642,37.72,E198,C
+328,1,2,"Heikkinen, Mr. William Henry",male,78.2,2,1,405112,59.2645,A158,C
+329,1,1,"Heikkinen, Miss. Laina",female,27.5,7,1,684645,32.7974,A28,S
+330,0,2,"Cumings, Mr. Jacques Heath",male,59.5,3,5,873781,26.9314,NaN,Q
+331,1,3,"Smith, Mr. Owen Harris",male,28.8,2,2,449548,97.735,NaN,C
+332,0,2,"Allen, Miss. Florence Briggs",female,51.5,2,6,738758,43.7196,A84,Q
+333,0,3,"Futrelle, Mr. Jacques Heath",male,64.6,5,0,841428,95.7855,A147,C
+334,0,3,"Cumings, Miss. Laina",female,75.8,7,5,542640,30.466,NaN,Q
+335,1,2,"Cumings, Miss. Laina",female,79.8,2,1,227829,85.5705,NaN,Q
+336,1,2,"Taylor, Mr. William Henry",male,16.4,2,6,510634,93.8437,D86,C
+337,0,2,"Cumings, Mr. William Henry",male,22.1,0,1,763148,99.7985,B75,Q
+338,1,3,"Heikkinen, Mrs. Lily May Peel",female,45.1,1,2,227252,42.5193,NaN,C
+339,0,1,"Smith, Miss. Florence Briggs",female,62.2,7,2,431087,61.75,B100,Q
+340,0,1,"Allen, Mr. Jacques Heath",male,77.3,7,3,935022,19.1344,B192,C
+341,0,1,"Futrelle, Mrs. John Bradley",female,14.4,5,6,880758,46.2547,B103,C
+342,0,2,"Clark, Miss. Laina",female,50.5,0,3,321871,23.4112,B189,Q
+343,1,1,"Heikkinen, Mr. John Bradley",male,16.0,4,1,781937,51.2963,NaN,S
+344,0,2,"Cumings, Mrs. John Bradley",female,18.4,4,0,678482,21.2001,F15,C
+345,1,3,"Brown, Mr. William Henry",male,72.4,5,0,413055,25.295,NaN,S
+346,1,1,"Taylor, Miss. Laina",female,49.4,5,5,492207,78.0157,NaN,Q
+347,1,2,"Clark, Miss. Florence Briggs",female,38.0,6,4,605051,10.6459,B77,S
+348,1,3,"Braund, Mr. William Henry",male,31.8,8,0,320348,98.4517,E42,S
+349,1,2,"Clark, Mr. John Bradley",male,32.0,6,1,462600,59.7716,G138,S
+350,1,2,"Cumings, Mr. John Bradley",male,10.3,6,4,916298,64.6419,NaN,S
+351,1,2,"Smith, Mrs. Lily May Peel",female,52.5,4,0,508458,90.0155,NaN,C
+352,0,3,"Smith, Mr. William Henry",male,36.7,0,2,666746,58.6636,B67,C
+353,0,3,"Allen, Mr. John Bradley",male,67.8,7,1,256117,57.4524,NaN,C
+354,1,2,"Braund, Mrs. Lily May Peel",female,1.2,4,3,258799,53.998,NaN,C
+355,1,3,"Heikkinen, Mr. Jacques Heath",male,53.6,2,5,387267,85.4098,NaN,C
+356,1,3,"Taylor, Mr. Owen Harris",male,43.2,8,2,221919,81.7397,NaN,S
+357,0,2,"Braund, Mr. Jacques Heath",male,13.2,7,3,186702,66.4655,NaN,Q
+358,1,1,"Heikkinen, Mrs. John Bradley",female,6.7,5,1,599439,74.8709,NaN,Q
+359,0,2,"Brown, Mr. William Henry",male,66.9,5,3,705622,18.5962,NaN,Q
+360,0,3,"Cumings, Mr. Owen Harris",male,31.1,5,0,894293,45.0292,G40,Q
+361,1,2,"Clark, Mr. William Henry",male,2.2,0,3,342806,84.3806,NaN,C
+362,0,2,"Allen, Miss. Laina",female,64.7,2,4,674576,9.5611,F49,Q
+363,0,1,"Braund, Mrs. John Bradley",female,75.7,4,1,767155,42.4327,NaN,C
+364,1,2,"Futrelle, Mrs. Lily May Peel",female,58.4,6,5,826832,39.6111,G9,S
+365,1,3,"Smith, Miss. Laina",female,6.4,6,5,683821,14.3632,NaN,S
+366,0,2,"Taylor, Mr. John Bradley",male,36.1,0,4,462958,64.2089,F114,C
+367,1,3,"Taylor, Mrs. John Bradley",female,1.8,5,3,770235,31.2734,NaN,Q
+368,0,3,"Taylor, Miss. Laina",female,77.2,4,3,363541,29.0498,NaN,C
+369,1,2,"Smith, Mr. John Bradley",male,18.7,1,6,789100,44.3654,D29,S
+370,0,3,"Braund, Mr. William Henry",male,5.0,8,0,578323,10.3897,NaN,S
+371,0,2,"Futrelle, Mr. William Henry",male,32.6,7,3,279906,41.6935,NaN,S
+372,0,2,"Braund, Mr. John Bradley",male,75.0,0,4,187161,73.163,NaN,S
+373,0,3,"Allen, Mrs. Lily May Peel",female,42.0,2,6,286100,81.26,NaN,Q
+374,0,1,"Clark, Miss. Laina",female,69.7,7,1,345724,68.0163,F12,C
+375,0,2,"Allen, Miss. Laina",female,50.3,4,1,611936,39.7171,NaN,Q
+376,1,3,"Allen, Miss. Florence Briggs",female,58.4,0,1,877702,63.462,NaN,S
+377,1,1,"Futrelle, Mr. William Henry",male,40.5,2,5,365125,90.286,NaN,Q
+378,0,1,"Braund, Mr. William Henry",male,64.2,3,0,597763,20.4711,A185,S
+379,1,1,"Brown, Mrs. Lily May Peel",female,57.7,8,3,258796,52.5393,C53,C
+380,1,2,"Taylor, Mrs. John Bradley",female,68.5,8,5,613997,14.4272,D128,Q
+381,1,1,"Clark, Mr. John Bradley",male,2.3,3,3,371837,58.6762,NaN,S
+382,1,3,"Clark, Mr. Owen Harris",male,54.2,3,4,146328,63.0766,C64,S
+383,0,2,"Taylor, Mr. Owen Harris",male,14.1,7,3,328349,42.4656,NaN,Q
+384,0,3,"Futrelle, Mrs. Lily May Peel",female,31.5,2,4,520179,89.1537,A11,C
+385,0,2,"Heikkinen, Mr. John Bradley",male,49.3,5,2,329097,38.9001,E120,Q
+386,0,2,"Clark, Mrs. Lily May Peel",female,13.9,6,1,957107,19.203,B127,S
+387,1,1,"Braund, Mr. Owen Harris",male,47.6,5,3,732709,18.3424,NaN,S
+388,0,3,"Smith, Mr. John Bradley",male,74.3,4,5,436452,44.094,B38,Q
+389,0,2,"Allen, Mr. Owen Harris",male,40.7,7,4,455624,92.3622,NaN,Q
+390,1,1,"Futrelle, Miss. Laina",female,68.4,5,6,708610,6.1452,F172,S
+391,1,2,"Taylor, Mr. William Henry",male,18.4,3,4,243189,82.879,F188,Q
+392,1,2,"Taylor, Miss. Florence Briggs",female,3.1,6,1,718797,53.9208,E184,C
+393,1,1,"Futrelle, Mr. Owen Harris",male,21.3,2,0,558901,19.3605,B43,Q
+394,1,3,"Allen, Miss. Laina",female,26.8,1,6,867173,21.5509,NaN,C
+395,1,2,"Brown, Mr. John Bradley",male,40.8,5,3,348739,89.1341,NaN,C
+396,1,1,"Taylor, Mrs. Lily May Peel",female,30.4,2,3,287664,86.5885,NaN,S
+397,0,2,"Braund, Mr. Owen Harris",male,40.4,0,1,704782,75.5859,NaN,S
+398,0,1,"Clark, Mrs. John Bradley",female,7.5,8,4,563413,41.4551,NaN,Q
+399,0,1,"Futrelle, Mr. Owen Harris",male,1.1,6,0,382528,51.5088,NaN,C
+400,1,3,"Heikkinen, Mr. Owen Harris",male,32.7,5,1,385650,91.7743,NaN,C
+401,1,3,"Smith, Mr. Jacques Heath",male,22.4,2,0,943273,66.8457,E44,S
+402,1,1,"Smith, Mr. William Henry",male,47.7,1,5,628268,20.955,NaN,Q
+403,1,3,"Allen, Mr. William Henry",male,27.7,3,5,417448,72.8394,NaN,C
+404,1,2,"Braund, Mrs. John Bradley",female,54.0,6,0,917736,90.0538,NaN,C
+405,0,2,"Smith, Miss. Florence Briggs",female,40.6,7,2,796533,11.5775,D4,S
+406,0,1,"Braund, Mrs. John Bradley",female,46.8,4,3,675252,10.5832,F129,C
+407,0,2,"Clark, Mr. Jacques Heath",male,65.8,3,5,678158,99.1851,A196,Q
+408,0,1,"Smith, Mrs. Lily May Peel",female,79.8,3,5,823886,45.1535,NaN,C
+409,1,3,"Futrelle, Miss. Laina",female,47.8,1,5,124398,88.0436,E199,Q
+410,1,2,"Futrelle, Mr. Owen Harris",male,4.6,6,6,437657,85.119,NaN,C
+411,1,3,"Heikkinen, Mrs. John Bradley",female,61.7,7,0,549854,94.1218,NaN,S
+412,0,3,"Cumings, Miss. Laina",female,75.9,5,2,843587,26.4868,G12,C
+413,1,1,"Smith, Mr. William Henry",male,42.4,7,6,917069,41.7356,NaN,C
+414,0,3,"Clark, Mrs. Lily May Peel",female,8.9,5,2,651756,61.8794,G53,C
+415,1,3,"Allen, Mr. John Bradley",male,71.1,2,4,913796,18.9255,NaN,S
+416,0,2,"Allen, Mrs. John Bradley",female,33.9,3,2,429705,62.0037,A37,S
+417,1,3,"Smith, Mr. John Bradley",male,41.4,5,0,560401,13.9237,NaN,Q
+418,0,1,"Smith, Mrs. Lily May Peel",female,50.3,4,1,826961,29.5123,F22,C
+419,0,1,"Brown, Mr. William Henry",male,10.0,4,2,575405,66.0162,D23,Q
+420,0,1,"Heikkinen, Mr. Owen Harris",male,15.8,4,3,700535,54.3067,E58,Q
+421,0,2,"Allen, Mrs. John Bradley",female,48.8,6,6,894580,5.7307,NaN,C
+422,1,2,"Smith, Mr. William Henry",male,13.3,7,6,755390,14.889,NaN,Q
+423,1,3,"Heikkinen, Mr. William Henry",male,2.4,4,6,574604,64.7677,NaN,C
+424,1,3,"Allen, Mr. William Henry",male,77.7,2,4,526387,12.2883,D86,Q
+425,0,1,"Heikkinen, Mr. John Bradley",male,74.1,3,5,387931,54.8116,A120,Q
+426,0,1,"Smith, Miss. Florence Briggs",female,31.2,2,0,840195,33.021,NaN,C
+427,0,1,"Smith, Mr. Owen Harris",male,11.8,3,6,690815,43.4105,A31,Q
+428,0,2,"Braund, Miss. Florence Briggs",female,5.9,2,0,941191,96.6466,G157,C
+429,0,3,"Smith, Mr. William Henry",male,28.3,2,5,474179,27.2328,F123,S
+430,0,2,"Heikkinen, Mrs. Lily May Peel",female,34.3,2,4,614532,76.6624,NaN,Q
+431,0,3,"Clark, Miss. Florence Briggs",female,78.5,0,5,602001,85.7992,B161,Q
+432,0,1,"Futrelle, Miss. Laina",female,70.2,7,0,251809,82.0689,F145,S
+433,0,2,"Allen, Miss. Laina",female,48.2,0,3,885275,56.8752,B58,S
+434,0,3,"Brown, Mr. Jacques Heath",male,37.8,6,3,241768,26.7583,NaN,S
+435,0,2,"Brown, Mr. William Henry",male,58.2,1,5,608761,40.7951,NaN,S
+436,0,1,"Taylor, Mrs. Lily May Peel",female,2.2,3,4,924603,20.1929,F118,Q
+437,0,1,"Brown, Mrs. John Bradley",female,31.0,3,2,963018,19.3781,NaN,S
+438,1,2,"Braund, Mrs. John Bradley",female,62.4,6,5,127694,67.656,G192,S
+439,0,2,"Clark, Mr. Owen Harris",male,75.2,5,3,519429,55.5508,A149,Q
+440,0,2,"Brown, Miss. Florence Briggs",female,27.6,8,3,397686,50.9222,B194,Q
+441,0,1,"Smith, Mr. William Henry",male,78.5,0,2,369959,62.6024,E169,S
+442,1,3,"Brown, Mr. Jacques Heath",male,41.6,1,4,118250,46.3886,E102,S
+443,0,1,"Brown, Miss. Laina",female,37.0,0,2,680191,95.9885,NaN,Q
+444,0,3,"Taylor, Miss. Laina",female,1.9,7,0,447613,19.9306,NaN,Q
+445,1,1,"Taylor, Mr. William Henry",male,51.4,2,3,108440,94.2282,A170,C
+446,0,1,"Allen, Mr. Owen Harris",male,34.2,7,4,469543,75.1835,F147,C
+447,1,2,"Brown, Mr. Owen Harris",male,47.0,7,4,152142,29.3085,B162,Q
+448,0,1,"Heikkinen, Mr. John Bradley",male,67.9,3,1,316098,65.5376,NaN,Q
+449,1,2,"Heikkinen, Mrs. John Bradley",female,27.6,3,5,663912,57.1375,NaN,C
+450,1,2,"Brown, Miss. Florence Briggs",female,79.1,0,2,584379,65.0611,F102,S
+451,1,3,"Taylor, Mrs. Lily May Peel",female,35.9,4,4,990392,90.8878,D38,Q
+452,1,2,"Clark, Mr. William Henry",male,17.6,4,2,832975,48.2853,A130,Q
+453,1,2,"Allen, Miss. Florence Briggs",female,46.8,7,1,952555,63.5387,D161,S
+454,0,2,"Clark, Miss. Florence Briggs",female,45.0,5,0,834958,29.7395,NaN,C
+455,0,3,"Braund, Mrs. John Bradley",female,63.7,8,5,109224,15.199,A139,C
+456,1,2,"Allen, Mr. John Bradley",male,32.0,1,5,410905,47.4661,G139,Q
+457,0,2,"Brown, Mrs. John Bradley",female,4.4,0,4,778073,97.6186,E34,Q
+458,0,1,"Brown, Mr. John Bradley",male,47.5,5,2,334220,9.8494,NaN,C
+459,0,1,"Allen, Mr. Owen Harris",male,74.2,0,5,865126,65.9628,NaN,S
+460,0,3,"Clark, Mrs. Lily May Peel",female,77.5,5,4,549015,26.0998,B199,S
+461,1,2,"Taylor, Mr. John Bradley",male,75.9,8,1,931757,59.7761,A49,Q
+462,1,1,"Clark, Mr. John Bradley",male,39.8,5,3,204387,53.8234,C24,C
+463,1,2,"Brown, Mrs. Lily May Peel",female,75.6,4,4,761830,69.0979,D106,C
+464,1,3,"Heikkinen, Miss. Laina",female,5.5,3,1,541326,26.541,NaN,S
+465,0,3,"Allen, Mr. William Henry",male,48.3,1,0,230997,79.4464,NaN,S
+466,1,3,"Braund, Miss. Laina",female,28.5,0,4,798373,84.1046,G175,S
+467,0,1,"Heikkinen, Mr. William Henry",male,57.6,8,0,543048,31.5942,NaN,S
+468,1,3,"Clark, Mr. John Bradley",male,38.0,3,2,424507,24.3185,NaN,Q
+469,1,3,"Clark, Mrs. John Bradley",female,17.7,6,6,428116,54.1102,C77,Q
+470,1,1,"Taylor, Miss. Laina",female,1.3,2,6,807563,29.7943,NaN,Q
+471,0,3,"Taylor, Mr. Jacques Heath",male,27.7,5,6,429025,69.3279,F60,C
+472,1,2,"Braund, Miss. Florence Briggs",female,16.0,3,5,336847,97.1127,D52,Q
+473,0,2,"Smith, Mr. William Henry",male,14.5,0,4,387483,96.3895,NaN,S
+474,1,1,"Taylor, Mrs. Lily May Peel",female,18.0,0,2,162561,14.6697,NaN,Q
+475,0,3,"Smith, Mr. John Bradley",male,39.1,6,6,851350,48.2296,C5,Q
+476,0,2,"Cumings, Mr. John Bradley",male,11.7,8,2,774424,13.2306,G32,Q
+477,0,1,"Braund, Miss. Laina",female,68.5,3,5,875445,78.308,NaN,C
+478,0,1,"Taylor, Mr. William Henry",male,35.9,3,3,966432,29.0038,G98,S
+479,0,3,"Clark, Mr. Jacques Heath",male,70.4,2,5,425546,25.2864,E159,C
+480,1,1,"Smith, Mrs. Lily May Peel",female,64.3,3,0,666427,46.6482,D170,C
+481,0,2,"Taylor, Miss. Florence Briggs",female,50.9,4,4,771697,83.2649,NaN,C
+482,0,1,"Clark, Mr. John Bradley",male,13.5,0,4,566180,50.4426,C47,C
+483,0,3,"Cumings, Mrs. John Bradley",female,54.5,0,0,220527,81.5688,E166,S
+484,1,1,"Taylor, Mr. William Henry",male,3.7,1,0,133715,41.262,F103,C
+485,1,3,"Brown, Miss. Florence Briggs",female,4.4,1,1,307753,26.8561,NaN,Q
+486,1,2,"Taylor, Mrs. Lily May Peel",female,61.6,0,6,688012,72.476,NaN,Q
+487,1,3,"Brown, Mr. Jacques Heath",male,45.1,5,2,113440,81.1715,A28,S
+488,1,3,"Heikkinen, Mr. Jacques Heath",male,12.3,5,3,666581,26.9259,NaN,C
+489,0,3,"Futrelle, Miss. Laina",female,64.1,7,5,770419,29.2282,NaN,S
+490,0,2,"Taylor, Mr. Jacques Heath",male,9.3,7,5,145324,67.4947,G79,S
+491,1,2,"Heikkinen, Mr. Owen Harris",male,79.2,2,0,393901,92.9147,NaN,Q
+492,1,3,"Allen, Mr. Owen Harris",male,62.9,7,4,304803,79.4107,D198,C
+493,0,3,"Taylor, Mrs. John Bradley",female,14.0,4,3,436980,41.8145,E171,S
+494,0,3,"Futrelle, Miss. Laina",female,40.9,7,0,192904,30.9222,B116,Q
+495,0,3,"Heikkinen, Mr. John Bradley",male,28.6,8,1,680398,6.408,NaN,C
+496,1,2,"Clark, Mr. Owen Harris",male,7.3,6,0,637356,99.085,NaN,C
+497,1,3,"Brown, Mr. Jacques Heath",male,15.5,0,0,298519,40.5844,B143,S
+498,1,2,"Cumings, Mr. Owen Harris",male,26.7,1,1,553970,22.6537,NaN,C
+499,0,2,"Futrelle, Mr. William Henry",male,35.8,3,5,595398,65.2335,F3,C
+500,0,1,"Taylor, Mr. Owen Harris",male,42.6,0,2,582627,77.6061,F35,Q
+501,0,2,"Smith, Mrs. Lily May Peel",female,61.4,3,2,540779,26.9699,A55,Q
+502,1,3,"Clark, Mr. John Bradley",male,10.7,8,2,723080,82.0685,D64,Q
+503,1,3,"Taylor, Mr. Jacques Heath",male,16.4,8,2,901753,8.1609,E12,Q
+504,1,3,"Taylor, Mr. Jacques Heath",male,56.3,8,4,688895,90.7675,NaN,C
+505,0,2,"Braund, Mr. Jacques Heath",male,37.8,7,1,488756,36.4627,NaN,Q
+506,0,2,"Heikkinen, Miss. Florence Briggs",female,55.1,5,2,548507,86.032,NaN,S
+507,0,1,"Taylor, Miss. Laina",female,5.9,2,1,371722,76.4123,D134,S
+508,0,1,"Clark, Mrs. Lily May Peel",female,79.1,1,5,834933,48.0456,NaN,S
+509,1,2,"Brown, Mr. Jacques Heath",male,53.2,7,2,932113,68.2312,G175,Q
+510,1,2,"Heikkinen, Mr. Jacques Heath",male,59.8,2,5,463048,36.1753,NaN,S
+511,0,2,"Brown, Mrs. John Bradley",female,53.2,0,2,903062,9.306,NaN,S
+512,0,2,"Brown, Mr. William Henry",male,69.8,1,4,352346,56.7481,NaN,S
+513,1,3,"Brown, Miss. Florence Briggs",female,5.7,0,0,445756,11.3121,NaN,C
+514,1,3,"Allen, Mrs. Lily May Peel",female,33.7,2,2,515012,19.3919,A42,Q
+515,1,2,"Clark, Mr. John Bradley",male,78.7,3,1,165411,19.8353,D73,C
+516,0,1,"Clark, Mr. Jacques Heath",male,13.3,2,5,585425,31.8215,E103,Q
+517,0,2,"Taylor, Mr. John Bradley",male,15.7,0,4,669189,12.5366,NaN,S
+518,1,1,"Cumings, Mr. William Henry",male,76.6,1,3,198744,22.6984,D116,Q
+519,1,1,"Clark, Mr. Owen Harris",male,29.4,5,3,749253,75.6556,NaN,S
+520,1,3,"Clark, Miss. Laina",female,8.7,3,3,496832,66.2859,B162,S
+521,1,1,"Taylor, Mr. Jacques Heath",male,56.5,7,1,183978,36.9201,B197,Q
+522,0,1,"Heikkinen, Mr. Owen Harris",male,22.0,5,4,663879,60.7596,NaN,C
+523,1,1,"Allen, Mr. Owen Harris",male,55.0,3,6,755168,32.5887,A192,S
+524,1,2,"Heikkinen, Miss. Florence Briggs",female,13.6,1,0,170606,47.1072,G193,S
+525,1,1,"Smith, Mr. William Henry",male,77.6,4,5,862274,74.9513,NaN,S
+526,0,1,"Smith, Mrs. John Bradley",female,62.8,2,6,715601,68.0521,C169,S
+527,1,1,"Heikkinen, Mrs. John Bradley",female,58.3,1,3,622132,71.8807,G189,Q
+528,1,2,"Cumings, Mr. John Bradley",male,4.9,4,6,148774,13.5476,E111,Q
+529,1,2,"Cumings, Mrs. Lily May Peel",female,33.9,1,0,939647,95.3769,NaN,S
+530,0,3,"Heikkinen, Mr. Jacques Heath",male,70.3,4,6,424302,76.5978,D48,Q
+531,0,1,"Clark, Miss. Laina",female,11.4,3,4,850136,94.1608,G6,Q
+532,0,3,"Cumings, Mr. William Henry",male,5.4,2,2,262928,21.3189,NaN,C
+533,1,1,"Heikkinen, Mrs. John Bradley",female,32.9,6,1,392530,15.7607,NaN,S
+534,0,2,"Cumings, Mrs. John Bradley",female,42.5,6,1,907820,19.7503,NaN,C
+535,0,3,"Futrelle, Mr. Owen Harris",male,44.6,7,3,438083,79.3757,G106,Q
+536,1,2,"Clark, Mr. Jacques Heath",male,28.1,2,0,907555,96.9159,D135,Q
+537,1,1,"Brown, Mr. John Bradley",male,76.1,3,2,273244,47.3352,F84,Q
+538,0,1,"Smith, Mr. William Henry",male,44.2,7,5,590669,77.7781,B24,C
+539,0,3,"Smith, Mr. Owen Harris",male,67.4,2,6,508938,56.8045,F124,Q
+540,1,2,"Heikkinen, Mr. William Henry",male,25.6,8,4,585193,9.3009,A106,C
+541,1,2,"Braund, Mr. John Bradley",male,37.3,1,3,744791,47.2522,A199,S
+542,0,1,"Taylor, Mr. Owen Harris",male,57.9,0,6,333423,61.4895,NaN,C
+543,0,3,"Futrelle, Mrs. John Bradley",female,48.7,6,5,759754,42.9247,NaN,S
+544,1,2,"Brown, Mrs. John Bradley",female,26.0,7,2,233827,50.6159,F63,Q
+545,0,2,"Futrelle, Miss. Laina",female,19.6,5,5,744549,17.9714,E95,Q
+546,1,1,"Smith, Miss. Florence Briggs",female,66.9,0,5,417068,28.3504,B30,Q
+547,1,2,"Futrelle, Miss. Florence Briggs",female,65.5,6,6,224791,50.5474,G69,C
+548,1,2,"Allen, Mr. William Henry",male,77.5,8,0,581743,17.391,E141,C
+549,0,1,"Smith, Mr. William Henry",male,45.1,5,5,455072,28.3523,NaN,Q
+550,1,2,"Cumings, Mr. Owen Harris",male,55.4,0,2,294816,54.0049,D83,C
+551,0,1,"Braund, Mrs. John Bradley",female,30.3,4,4,410292,90.6222,E76,S
+552,1,2,"Heikkinen, Mr. Owen Harris",male,64.0,2,6,396423,7.2944,NaN,Q
+553,1,3,"Heikkinen, Mr. William Henry",male,31.2,2,2,975500,65.6723,NaN,C
+554,0,2,"Futrelle, Mr. Jacques Heath",male,3.6,0,4,835984,40.2665,NaN,C
+555,1,2,"Braund, Mr. Owen Harris",male,41.8,5,4,752363,19.6523,NaN,C
+556,0,3,"Braund, Mrs. Lily May Peel",female,78.0,2,3,638740,43.509,NaN,Q
+557,0,3,"Smith, Mrs. Lily May Peel",female,30.6,7,4,780431,79.7893,NaN,S
+558,1,2,"Brown, Mr. John Bradley",male,6.8,0,2,507616,55.5951,NaN,S
+559,0,3,"Taylor, Miss. Laina",female,37.4,1,5,167810,89.0232,B78,C
+560,1,2,"Braund, Mrs. John Bradley",female,77.4,3,3,479702,17.1847,NaN,C
+561,1,2,"Brown, Mrs. John Bradley",female,27.7,6,0,613480,80.4241,B95,C
+562,1,3,"Futrelle, Miss. Laina",female,76.1,4,0,987217,96.2938,G47,S
+563,1,2,"Heikkinen, Mr. John Bradley",male,65.2,8,1,641187,93.4513,B196,S
+564,0,3,"Clark, Mr. William Henry",male,56.8,2,2,226447,21.0324,B4,S
+565,0,2,"Taylor, Mr. John Bradley",male,63.9,4,2,657335,89.5298,B26,S
+566,0,3,"Futrelle, Mrs. Lily May Peel",female,60.2,0,3,709124,37.6515,NaN,Q
+567,1,2,"Allen, Mr. Owen Harris",male,53.8,7,4,248136,98.7814,A65,S
+568,1,2,"Clark, Mr. Jacques Heath",male,44.2,4,1,200509,20.7487,NaN,Q
+569,1,2,"Smith, Mrs. John Bradley",female,23.5,0,6,753175,6.9412,C121,Q
+570,1,3,"Futrelle, Miss. Laina",female,33.7,8,4,604775,41.0508,NaN,S
+571,1,3,"Braund, Miss. Laina",female,52.1,2,4,846584,65.0872,D11,C
+572,0,1,"Heikkinen, Mr. Jacques Heath",male,45.1,3,1,745938,31.8437,F178,C
+573,1,2,"Braund, Mr. Owen Harris",male,72.7,8,3,285485,29.5101,NaN,C
+574,0,3,"Taylor, Mrs. Lily May Peel",female,57.6,7,0,246959,96.6724,NaN,Q
+575,0,1,"Braund, Mr. Owen Harris",male,39.9,8,4,160779,71.1881,NaN,S
+576,0,1,"Allen, Miss. Laina",female,12.3,7,5,219871,79.7603,NaN,Q
+577,0,3,"Braund, Mrs. Lily May Peel",female,62.0,0,4,416006,13.386,NaN,Q
+578,0,1,"Brown, Mr. Jacques Heath",male,7.3,0,4,330364,15.9315,NaN,S
+579,0,3,"Braund, Miss. Laina",female,55.9,0,2,446417,25.5199,C56,C
+580,1,2,"Cumings, Miss. Laina",female,21.6,0,4,626236,91.0132,D154,S
+581,0,3,"Brown, Mrs. Lily May Peel",female,42.0,5,5,942457,64.4171,F41,C
+582,0,3,"Allen, Mr. Owen Harris",male,45.3,1,2,773039,27.6017,NaN,S
+583,1,1,"Cumings, Mr. John Bradley",male,16.2,5,0,658464,10.9186,B167,C
+584,0,1,"Cumings, Miss. Laina",female,70.1,5,5,385489,37.426,D96,S
+585,1,2,"Clark, Mr. Owen Harris",male,49.6,0,6,863484,74.7526,G81,C
+586,0,2,"Allen, Mr. Owen Harris",male,20.6,0,6,652892,34.9382,NaN,S
+587,1,2,"Cumings, Mrs. John Bradley",female,49.2,0,6,627415,81.427,NaN,S
+588,1,2,"Cumings, Miss. Florence Briggs",female,52.8,3,5,210320,15.1466,NaN,C
+589,1,2,"Allen, Mr. John Bradley",male,41.0,1,2,433627,36.5279,F190,Q
+590,0,3,"Taylor, Miss. Laina",female,9.3,6,5,967529,26.4237,A78,S
+591,1,3,"Brown, Mr. Owen Harris",male,1.0,4,5,214732,99.9818,NaN,C
+592,1,1,"Allen, Mr. Jacques Heath",male,54.8,2,1,739949,89.9876,NaN,S
+593,0,1,"Taylor, Mr. William Henry",male,10.8,7,4,975913,99.1169,D101,S
+594,1,1,"Braund, Mr. Owen Harris",male,11.2,7,6,527620,66.0438,NaN,C
+595,1,2,"Clark, Miss. Laina",female,25.2,7,4,893674,35.1315,F65,C
+596,1,2,"Braund, Miss. Laina",female,30.9,6,4,614888,68.3194,B109,C
+597,0,1,"Brown, Miss. Florence Briggs",female,22.0,4,6,860592,49.05,NaN,Q
+598,1,2,"Heikkinen, Mr. William Henry",male,71.7,7,1,313744,17.1823,G200,S
+599,0,1,"Allen, Mrs. Lily May Peel",female,36.1,5,4,403449,68.0336,C112,Q
+600,0,3,"Smith, Mr. John Bradley",male,35.0,7,2,929297,62.7799,B121,S
+601,0,2,"Allen, Mr. Owen Harris",male,43.7,8,0,975841,68.0536,NaN,S
+602,1,3,"Allen, Mr. John Bradley",male,78.6,1,3,165601,78.6275,NaN,C
+603,0,2,"Futrelle, Mr. William Henry",male,20.4,4,5,631524,25.284,G53,S
+604,1,3,"Allen, Miss. Laina",female,52.7,5,4,547536,34.5844,F63,C
+605,0,1,"Braund, Mrs. John Bradley",female,42.1,7,1,115866,38.8267,NaN,Q
+606,0,1,"Futrelle, Mr. John Bradley",male,7.5,0,4,943268,39.0426,NaN,Q
+607,1,2,"Taylor, Mr. William Henry",male,44.9,5,1,131194,95.6326,NaN,Q
+608,1,1,"Braund, Mr. Owen Harris",male,39.6,5,5,919965,7.2776,E133,Q
+609,0,2,"Allen, Mrs. John Bradley",female,14.2,8,3,247609,79.1458,D178,Q
+610,1,1,"Braund, Mr. Jacques Heath",male,59.0,7,6,691918,43.8368,E143,Q
+611,0,1,"Cumings, Mr. John Bradley",male,24.4,4,2,976374,23.9916,F166,Q
+612,1,2,"Futrelle, Mrs. Lily May Peel",female,24.1,3,1,422711,86.569,NaN,Q
+613,0,3,"Clark, Mr. Jacques Heath",male,68.0,3,2,707104,31.9218,F150,C
+614,1,2,"Cumings, Miss. Laina",female,5.5,6,0,437042,83.1135,NaN,Q
+615,1,3,"Allen, Mrs. John Bradley",female,40.7,3,1,971286,88.6285,D132,Q
+616,1,2,"Allen, Miss. Laina",female,15.0,6,1,108515,92.5305,B133,C
+617,0,3,"Futrelle, Mr. John Bradley",male,58.0,5,4,176445,51.6952,F189,Q
+618,0,2,"Smith, Mrs. John Bradley",female,3.0,5,0,107581,66.2007,C88,S
+619,0,1,"Brown, Mr. Owen Harris",male,62.4,0,5,806660,96.3102,G7,Q
+620,0,1,"Taylor, Miss. Florence Briggs",female,21.6,7,4,728058,48.2761,A106,C
+621,0,3,"Braund, Mrs. Lily May Peel",female,26.1,0,4,227950,68.6827,G78,Q
+622,1,2,"Heikkinen, Mr. William Henry",male,50.0,4,1,895776,63.9593,NaN,Q
+623,0,3,"Taylor, Mr. William Henry",male,8.2,7,2,202138,67.0185,NaN,S
+624,1,1,"Allen, Mr. William Henry",male,53.3,5,6,646067,43.5125,D197,Q
+625,0,3,"Braund, Mr. William Henry",male,64.2,1,3,210686,62.5768,F75,S
+626,0,2,"Heikkinen, Mrs. John Bradley",female,44.9,7,5,301827,89.0286,C40,S
+627,1,2,"Allen, Miss. Laina",female,21.3,8,4,864721,49.6078,NaN,S
+628,0,2,"Taylor, Miss. Laina",female,46.4,7,6,913914,70.0597,E146,S
+629,1,3,"Braund, Miss. Florence Briggs",female,46.1,5,6,470164,80.457,A76,C
+630,1,2,"Cumings, Miss. Laina",female,30.0,5,2,822056,91.9388,NaN,C
+631,0,2,"Cumings, Mrs. John Bradley",female,70.9,5,0,712777,21.6099,NaN,S
+632,0,3,"Taylor, Miss. Laina",female,12.3,3,3,711786,52.973,NaN,Q
+633,0,2,"Heikkinen, Mr. Owen Harris",male,64.4,3,3,901950,88.3211,NaN,C
+634,0,3,"Heikkinen, Mr. William Henry",male,75.5,7,0,715288,45.8052,F172,Q
+635,1,2,"Smith, Mr. William Henry",male,9.8,6,1,500253,69.9651,F103,Q
+636,0,1,"Heikkinen, Mr. William Henry",male,22.4,0,6,441334,54.3715,B4,Q
+637,1,2,"Brown, Miss. Laina",female,74.6,0,5,389321,98.5948,NaN,Q
+638,1,1,"Brown, Miss. Laina",female,15.4,2,4,304897,47.7544,A187,Q
+639,0,3,"Taylor, Miss. Florence Briggs",female,44.8,0,6,353996,55.5387,E11,S
+640,0,1,"Smith, Miss. Florence Briggs",female,33.0,2,1,964163,9.4257,NaN,C
+641,1,2,"Braund, Mrs. John Bradley",female,36.4,4,0,523145,47.7928,NaN,Q
+642,1,3,"Clark, Mrs. Lily May Peel",female,25.9,5,3,230174,87.4325,F37,S
+643,0,2,"Taylor, Mr. Owen Harris",male,66.6,2,2,382070,21.8509,NaN,C
+644,0,3,"Braund, Mrs. John Bradley",female,34.3,6,2,447048,96.3087,NaN,S
+645,1,3,"Heikkinen, Mr. Owen Harris",male,61.2,0,6,996355,24.2254,G38,Q
+646,1,1,"Heikkinen, Mrs. John Bradley",female,24.1,7,4,858408,73.38,NaN,C
+647,0,2,"Allen, Mr. John Bradley",male,65.7,3,4,784256,24.5279,NaN,S
+648,0,3,"Smith, Miss. Laina",female,79.0,7,0,987481,40.8556,NaN,Q
+649,0,2,"Cumings, Mr. William Henry",male,70.6,2,6,576551,40.3694,A75,Q
+650,0,1,"Braund, Mrs. Lily May Peel",female,13.7,2,1,849991,88.4339,NaN,Q
+651,0,1,"Taylor, Mr. Jacques Heath",male,51.4,2,2,886151,98.1673,NaN,C
+652,1,2,"Cumings, Mr. John Bradley",male,56.4,2,4,215830,23.1159,NaN,C
+653,0,3,"Brown, Mrs. John Bradley",female,41.2,1,4,389545,83.3449,NaN,C
+654,1,3,"Futrelle, Miss. Laina",female,72.6,0,0,927286,51.9603,NaN,Q
+655,1,2,"Cumings, Miss. Florence Briggs",female,58.1,6,0,623194,58.1601,NaN,Q
+656,1,3,"Smith, Mrs. Lily May Peel",female,1.3,2,5,654097,82.1286,NaN,S
+657,0,3,"Futrelle, Mrs. Lily May Peel",female,46.5,6,5,765806,75.7496,NaN,S
+658,0,1,"Smith, Mr. Owen Harris",male,6.0,2,1,937946,11.3446,NaN,C
+659,1,1,"Cumings, Mr. Jacques Heath",male,6.6,0,0,909285,52.0291,E21,Q
+660,0,1,"Brown, Mr. Owen Harris",male,47.6,3,1,286563,90.33,NaN,C
+661,0,1,"Brown, Mr. John Bradley",male,72.0,6,2,212973,67.9046,NaN,C
+662,0,2,"Heikkinen, Mr. John Bradley",male,72.3,0,1,117410,69.1285,A190,C
+663,1,1,"Heikkinen, Miss. Laina",female,65.2,4,3,542709,51.7283,F109,Q
+664,1,2,"Heikkinen, Mr. Jacques Heath",male,14.0,8,5,842406,71.2638,NaN,S
+665,0,1,"Heikkinen, Mr. William Henry",male,22.6,8,2,844784,40.9021,NaN,S
+666,1,3,"Brown, Mr. John Bradley",male,77.2,1,3,517830,13.8743,A133,Q
+667,0,2,"Heikkinen, Mrs. John Bradley",female,35.4,2,4,263619,36.5512,NaN,S
+668,1,1,"Brown, Mrs. Lily May Peel",female,70.2,8,2,695623,97.6445,NaN,S
+669,1,3,"Smith, Mr. William Henry",male,54.0,1,4,353242,71.1313,NaN,S
+670,1,2,"Cumings, Mr. William Henry",male,26.5,6,6,603466,80.9593,B45,Q
+671,0,2,"Taylor, Mr. William Henry",male,52.4,6,0,665306,89.3077,NaN,C
+672,0,2,"Brown, Mr. William Henry",male,35.4,8,1,862607,66.0377,G43,S
+673,0,3,"Braund, Mr. Owen Harris",male,36.7,1,3,676200,85.0775,NaN,C
+674,1,1,"Brown, Mr. Jacques Heath",male,35.7,7,2,100483,69.7767,D58,Q
+675,0,3,"Taylor, Mr. Owen Harris",male,6.9,7,1,378618,92.718,C194,Q
+676,0,3,"Taylor, Miss. Laina",female,43.8,4,6,418819,64.6453,F49,Q
+677,1,3,"Cumings, Miss. Laina",female,58.5,0,0,335434,94.4919,NaN,C
+678,1,1,"Cumings, Mr. William Henry",male,74.6,1,5,850478,75.046,NaN,C
+679,1,3,"Smith, Miss. Florence Briggs",female,10.2,7,0,661025,62.0706,NaN,Q
+680,0,2,"Clark, Miss. Laina",female,30.5,1,6,149559,27.6419,NaN,S
+681,0,2,"Braund, Miss. Laina",female,65.9,6,2,902522,29.942,NaN,Q
+682,1,2,"Braund, Mr. William Henry",male,54.6,5,2,387261,68.7427,NaN,S
+683,1,2,"Clark, Miss. Florence Briggs",female,74.6,0,2,453368,28.2161,NaN,C
+684,0,1,"Futrelle, Miss. Florence Briggs",female,77.0,7,3,699003,13.7791,NaN,Q
+685,1,2,"Braund, Mrs. John Bradley",female,1.1,6,1,653407,9.0093,F117,Q
+686,1,2,"Clark, Mrs. Lily May Peel",female,52.0,2,3,262459,86.5332,F100,S
+687,0,2,"Allen, Miss. Laina",female,22.3,8,0,998314,81.148,NaN,S
+688,1,1,"Cumings, Mrs. Lily May Peel",female,66.6,3,4,999252,93.6104,B136,Q
+689,1,1,"Allen, Mr. John Bradley",male,37.4,5,5,493486,91.8747,A158,Q
+690,0,3,"Taylor, Mr. Jacques Heath",male,4.8,1,0,135344,53.093,NaN,S
+691,0,1,"Allen, Miss. Laina",female,47.6,8,3,140767,17.1864,NaN,Q
+692,0,3,"Heikkinen, Miss. Florence Briggs",female,39.5,6,1,731421,63.2405,F91,C
+693,0,1,"Heikkinen, Miss. Laina",female,38.6,4,0,845224,79.1787,NaN,Q
+694,1,3,"Smith, Mr. William Henry",male,7.8,0,1,451499,51.2901,NaN,Q
+695,1,1,"Cumings, Miss. Laina",female,7.3,5,6,401916,61.7549,C166,C
+696,0,1,"Brown, Miss. Florence Briggs",female,32.4,3,3,651012,93.9596,NaN,C
+697,1,3,"Futrelle, Mr. William Henry",male,16.6,3,4,518923,68.8139,NaN,C
+698,0,3,"Futrelle, Mr. John Bradley",male,60.3,5,1,502117,76.9217,B55,S
+699,1,2,"Smith, Mr. Jacques Heath",male,55.0,4,2,754707,29.7927,B14,Q
+700,0,1,"Clark, Mrs. John Bradley",female,41.5,0,6,153135,71.0788,NaN,Q
+701,1,1,"Cumings, Mr. Owen Harris",male,57.7,7,1,231561,26.4909,G196,Q
+702,1,3,"Allen, Mrs. Lily May Peel",female,9.6,1,2,384907,27.1785,C25,C
+703,1,1,"Heikkinen, Miss. Florence Briggs",female,25.1,5,0,951909,76.1928,NaN,Q
+704,1,1,"Futrelle, Miss. Florence Briggs",female,50.4,6,2,125854,14.2456,NaN,C
+705,1,2,"Taylor, Mr. Jacques Heath",male,23.4,0,1,666264,97.3739,NaN,C
+706,0,3,"Heikkinen, Mr. William Henry",male,25.1,5,2,768165,37.5015,E175,S
+707,0,3,"Smith, Mr. William Henry",male,20.8,1,3,369049,45.4254,E54,C
+708,1,2,"Allen, Mr. Jacques Heath",male,58.8,5,0,766880,71.0742,F76,C
+709,1,2,"Braund, Mrs. John Bradley",female,42.3,6,1,882964,14.3411,E142,C
+710,0,1,"Brown, Mr. William Henry",male,21.4,1,1,457986,74.6631,NaN,Q
+711,1,2,"Clark, Mr. Jacques Heath",male,72.6,2,6,177531,29.8415,G142,Q
+712,0,3,"Taylor, Mr. Jacques Heath",male,49.2,5,4,240015,6.3416,NaN,S
+713,0,1,"Clark, Mrs. John Bradley",female,41.6,2,1,608023,68.5022,C34,Q
+714,1,2,"Cumings, Mrs. Lily May Peel",female,37.2,2,2,593375,74.8006,NaN,S
+715,1,3,"Cumings, Miss. Florence Briggs",female,76.3,1,0,440692,35.8977,D193,Q
+716,1,2,"Futrelle, Mrs. John Bradley",female,33.0,6,3,674373,94.0796,NaN,S
+717,1,3,"Clark, Miss. Laina",female,28.2,8,3,985892,92.7985,NaN,S
+718,1,2,"Heikkinen, Mrs. Lily May Peel",female,64.0,3,1,939594,20.0945,G128,S
+719,0,1,"Cumings, Mr. William Henry",male,34.0,5,0,396011,78.6266,NaN,Q
+720,0,2,"Heikkinen, Mrs. Lily May Peel",female,41.6,4,1,214830,99.5744,D11,S
+721,0,2,"Cumings, Miss. Florence Briggs",female,61.5,3,0,987926,70.0579,NaN,Q
+722,0,1,"Cumings, Miss. Laina",female,68.3,8,2,303693,79.4346,NaN,S
+723,1,3,"Brown, Mrs. John Bradley",female,7.4,5,3,773623,15.2185,F42,Q
+724,1,2,"Allen, Mr. Owen Harris",male,29.3,4,4,122609,34.3872,D149,Q
+725,1,3,"Taylor, Mrs. Lily May Peel",female,66.9,0,1,975258,90.668,C33,C
+726,0,2,"Taylor, Mr. Owen Harris",male,21.8,5,5,606973,80.9295,E167,S
+727,0,2,"Smith, Miss. Laina",female,14.1,8,4,915637,96.4955,E106,Q
+728,0,3,"Allen, Miss. Florence Briggs",female,71.1,2,0,714534,41.8137,NaN,S
+729,0,3,"Smith, Mr. William Henry",male,48.9,8,1,821828,48.03,E187,S
+730,0,3,"Brown, Mrs. Lily May Peel",female,66.1,7,3,650816,37.6621,NaN,Q
+731,0,1,"Allen, Mr. Jacques Heath",male,64.4,7,2,522800,92.5586,E191,S
+732,0,2,"Allen, Mr. John Bradley",male,6.2,8,6,332045,73.408,NaN,C
+733,0,1,"Futrelle, Mr. Jacques Heath",male,59.9,6,6,268593,10.694,E81,S
+734,0,2,"Braund, Miss. Florence Briggs",female,58.9,5,2,114849,98.6226,A151,C
+735,0,1,"Clark, Miss. Laina",female,42.3,1,2,480493,79.3841,D135,C
+736,1,3,"Taylor, Mr. Owen Harris",male,67.3,2,0,219727,99.3258,B9,S
+737,1,1,"Futrelle, Mrs. Lily May Peel",female,48.0,5,4,669927,35.9838,NaN,S
+738,0,1,"Braund, Mrs. Lily May Peel",female,10.3,1,3,595249,67.8842,NaN,S
+739,0,1,"Heikkinen, Mrs. John Bradley",female,9.1,7,4,974102,22.8775,NaN,C
+740,1,2,"Cumings, Mr. William Henry",male,45.0,0,0,479561,49.0261,NaN,S
+741,0,3,"Heikkinen, Mr. William Henry",male,14.3,1,2,603610,95.5999,A106,C
+742,1,1,"Clark, Miss. Florence Briggs",female,54.1,7,3,623184,30.5615,NaN,Q
+743,0,2,"Braund, Mr. John Bradley",male,49.9,2,1,441945,71.0296,B2,S
+744,0,2,"Allen, Mr. Jacques Heath",male,5.5,1,4,641120,18.8527,NaN,Q
+745,0,3,"Heikkinen, Mr. John Bradley",male,9.1,7,5,364184,86.0114,NaN,C
+746,1,1,"Brown, Mr. Owen Harris",male,61.8,0,0,821985,11.833,NaN,C
+747,0,1,"Braund, Mr. John Bradley",male,22.8,8,5,153725,44.9774,NaN,S
+748,0,1,"Cumings, Mrs. Lily May Peel",female,79.7,0,3,846980,26.0273,B81,Q
+749,0,3,"Clark, Mr. William Henry",male,25.9,8,0,527378,66.9299,E165,C
+750,0,2,"Allen, Mrs. Lily May Peel",female,72.3,6,0,444570,21.8671,A22,C
+751,0,1,"Brown, Mrs. Lily May Peel",female,58.5,0,0,704183,47.0722,NaN,S
+752,1,3,"Cumings, Mr. Owen Harris",male,33.9,4,1,486507,23.7936,A37,Q
+753,1,2,"Smith, Mr. Jacques Heath",male,56.0,6,4,161101,85.7009,NaN,S
+754,0,2,"Taylor, Mr. John Bradley",male,52.8,6,5,314823,25.5019,E153,S
+755,1,3,"Braund, Mr. John Bradley",male,79.8,4,2,809432,33.8005,A19,C
+756,0,1,"Clark, Mr. Jacques Heath",male,3.9,5,2,787190,87.8446,NaN,C
+757,1,3,"Taylor, Mr. Jacques Heath",male,8.9,3,0,472910,17.929,C118,S
+758,0,1,"Heikkinen, Miss. Florence Briggs",female,38.1,3,5,243677,82.6092,C183,C
+759,0,1,"Taylor, Mrs. John Bradley",female,40.7,7,0,709909,28.9303,NaN,Q
+760,0,2,"Futrelle, Mr. John Bradley",male,11.9,1,5,654788,38.8066,B183,Q
+761,0,1,"Smith, Mr. John Bradley",male,22.8,8,6,152778,46.1607,NaN,S
+762,0,2,"Clark, Miss. Laina",female,70.9,4,3,380795,94.2679,NaN,C
+763,1,1,"Brown, Mr. William Henry",male,3.4,4,6,478130,76.5334,B109,S
+764,1,2,"Heikkinen, Mrs. John Bradley",female,26.5,2,1,116855,83.3748,NaN,C
+765,1,2,"Heikkinen, Mr. William Henry",male,48.5,7,1,398676,18.6732,NaN,S
+766,0,3,"Cumings, Mr. Owen Harris",male,64.7,1,3,164685,37.9541,G166,C
+767,0,1,"Cumings, Mr. William Henry",male,7.2,0,2,756344,86.136,NaN,S
+768,1,3,"Heikkinen, Mr. Jacques Heath",male,67.1,0,5,688205,21.7587,B91,S
+769,1,3,"Allen, Mr. John Bradley",male,72.2,5,2,858318,45.0348,NaN,Q
+770,1,1,"Braund, Mr. Jacques Heath",male,63.2,0,3,483542,7.9957,NaN,C
+771,0,1,"Smith, Mr. Jacques Heath",male,1.4,4,5,378231,41.1006,E97,Q
+772,1,1,"Clark, Miss. Florence Briggs",female,39.2,7,5,514566,88.6461,A67,S
+773,1,3,"Cumings, Mr. John Bradley",male,22.9,0,2,375531,36.9903,NaN,S
+774,1,3,"Futrelle, Mr. William Henry",male,51.5,4,2,172483,18.4513,NaN,C
+775,0,2,"Cumings, Mr. Jacques Heath",male,41.7,2,3,874750,47.0245,G158,Q
+776,1,2,"Heikkinen, Mr. William Henry",male,37.5,5,3,961671,85.1507,D69,S
+777,0,3,"Futrelle, Mr. William Henry",male,76.1,2,6,638739,61.9351,NaN,Q
+778,1,2,"Smith, Mrs. John Bradley",female,28.4,2,4,829692,17.1283,NaN,C
+779,0,3,"Brown, Mr. Owen Harris",male,59.3,4,0,659520,15.9519,NaN,S
+780,0,3,"Smith, Miss. Florence Briggs",female,73.4,7,2,166793,49.896,NaN,C
+781,0,2,"Allen, Miss. Florence Briggs",female,69.8,8,1,355117,47.5744,NaN,Q
+782,0,3,"Futrelle, Miss. Laina",female,21.0,4,5,829545,16.6011,E10,Q
+783,0,3,"Braund, Mr. John Bradley",male,48.1,5,6,977499,51.4493,NaN,Q
+784,0,1,"Cumings, Mr. Owen Harris",male,69.9,7,4,741717,60.566,NaN,S
+785,0,3,"Braund, Mrs. Lily May Peel",female,59.2,4,1,564024,57.7349,NaN,S
+786,0,2,"Brown, Mr. Owen Harris",male,10.4,2,3,227542,48.2825,NaN,S
+787,0,3,"Allen, Mr. John Bradley",male,29.6,4,3,944006,55.9861,D114,S
+788,0,1,"Heikkinen, Mrs. Lily May Peel",female,59.7,4,3,868073,36.1332,C188,C
+789,0,3,"Futrelle, Mrs. Lily May Peel",female,34.8,4,6,641324,61.9915,NaN,Q
+790,1,2,"Cumings, Mr. John Bradley",male,28.1,3,6,536485,48.1468,NaN,S
+791,1,2,"Cumings, Mr. William Henry",male,20.4,8,2,230531,92.4963,C129,S
+792,0,3,"Smith, Mr. William Henry",male,68.8,7,2,189389,56.6344,G109,S
+793,1,2,"Taylor, Mr. William Henry",male,5.2,8,3,241480,35.4341,NaN,Q
+794,0,1,"Futrelle, Mrs. Lily May Peel",female,61.2,2,3,576525,79.4066,G15,S
+795,1,3,"Braund, Miss. Florence Briggs",female,3.3,6,4,290176,53.1368,A47,C
+796,1,1,"Braund, Mr. Owen Harris",male,50.7,7,0,414842,88.326,NaN,C
+797,1,2,"Braund, Mrs. John Bradley",female,15.3,3,1,356729,69.3514,F118,Q
+798,0,1,"Braund, Mrs. Lily May Peel",female,61.4,8,3,629717,34.5001,NaN,C
+799,1,3,"Smith, Mrs. John Bradley",female,12.5,7,5,602809,31.976,NaN,Q
+800,1,3,"Smith, Mr. Jacques Heath",male,18.4,5,3,480369,14.8768,E136,Q
+801,0,2,"Cumings, Mr. Owen Harris",male,64.4,7,3,812599,21.0037,E14,C
+802,1,2,"Smith, Mr. Jacques Heath",male,2.1,6,6,477094,41.3525,NaN,S
+803,0,1,"Smith, Mr. Jacques Heath",male,31.3,6,1,963781,88.0614,D109,C
+804,1,2,"Cumings, Miss. Florence Briggs",female,40.2,6,4,110898,69.7593,NaN,Q
+805,0,3,"Allen, Mrs. Lily May Peel",female,19.7,7,6,955267,42.7337,B33,C
+806,0,1,"Heikkinen, Mrs. Lily May Peel",female,56.3,1,4,631149,61.1564,NaN,Q
+807,0,1,"Brown, Mr. John Bradley",male,65.2,5,2,818139,61.9811,NaN,Q
+808,1,2,"Braund, Miss. Laina",female,22.0,2,4,368993,43.1783,A119,S
+809,1,3,"Heikkinen, Mr. William Henry",male,30.9,7,4,367993,68.2306,NaN,Q
+810,0,3,"Clark, Miss. Laina",female,53.4,2,0,991722,10.7692,G60,C
+811,1,3,"Braund, Miss. Laina",female,55.5,0,1,506848,13.8535,D152,C
+812,0,1,"Clark, Mr. William Henry",male,26.0,5,3,756585,87.5039,A103,C
+813,1,1,"Smith, Miss. Florence Briggs",female,33.4,7,3,307902,36.4274,E97,Q
+814,0,1,"Brown, Miss. Laina",female,5.3,5,0,291574,47.0224,G96,Q
+815,0,2,"Futrelle, Mr. Owen Harris",male,12.4,8,4,570914,93.132,A26,Q
+816,1,1,"Cumings, Mr. William Henry",male,68.5,6,4,679007,29.3293,NaN,S
+817,0,3,"Cumings, Miss. Laina",female,20.9,4,3,239877,53.4923,E168,C
+818,0,3,"Clark, Mr. Jacques Heath",male,77.6,1,6,895190,30.662,D55,Q
+819,1,2,"Allen, Mrs. John Bradley",female,59.3,8,0,215820,43.5397,NaN,S
+820,0,2,"Braund, Mrs. John Bradley",female,59.4,5,3,711845,80.5421,F30,S
+821,0,1,"Heikkinen, Mr. Owen Harris",male,70.1,8,6,594671,62.0229,A63,S
+822,0,1,"Cumings, Mrs. Lily May Peel",female,61.9,2,5,259331,91.7464,G82,Q
+823,0,2,"Futrelle, Miss. Laina",female,9.7,4,5,983542,67.5539,B17,Q
+824,1,3,"Cumings, Mr. Owen Harris",male,4.1,3,1,857184,95.9731,NaN,S
+825,1,1,"Smith, Miss. Florence Briggs",female,58.6,5,2,990491,9.5547,E180,C
+826,0,2,"Braund, Mrs. John Bradley",female,70.4,0,3,690337,77.7815,NaN,C
+827,1,2,"Cumings, Miss. Laina",female,71.3,5,2,237862,92.5662,E104,S
+828,1,1,"Brown, Mr. Owen Harris",male,26.3,6,3,783303,80.1208,NaN,C
+829,1,1,"Smith, Mrs. Lily May Peel",female,12.1,6,4,883126,21.8868,NaN,Q
+830,1,1,"Cumings, Mrs. Lily May Peel",female,59.7,1,5,572582,75.0874,D189,S
+831,1,3,"Brown, Mrs. Lily May Peel",female,44.2,5,0,548516,71.4638,NaN,Q
+832,1,3,"Allen, Miss. Laina",female,24.0,8,4,798283,88.369,D103,Q
+833,1,2,"Clark, Mr. William Henry",male,9.9,8,1,913175,10.6142,NaN,Q
+834,1,1,"Cumings, Mr. Owen Harris",male,57.4,5,2,639244,40.4535,E152,C
+835,1,1,"Brown, Mrs. John Bradley",female,6.1,1,4,331203,18.7371,NaN,S
+836,0,2,"Allen, Mrs. John Bradley",female,38.2,5,3,301779,6.6119,NaN,C
+837,0,1,"Allen, Miss. Florence Briggs",female,35.1,3,5,328859,15.026,B3,S
+838,0,2,"Heikkinen, Miss. Laina",female,57.6,8,4,482442,78.8929,B59,S
+839,0,3,"Smith, Mrs. Lily May Peel",female,52.1,1,2,166868,5.5686,NaN,Q
+840,0,1,"Cumings, Mr. Jacques Heath",male,47.7,4,5,271638,56.5232,NaN,C
+841,0,1,"Taylor, Miss. Florence Briggs",female,65.6,0,4,588181,21.0059,G179,C
+842,1,1,"Cumings, Mr. Jacques Heath",male,17.5,5,6,246496,76.7895,NaN,Q
+843,0,1,"Heikkinen, Mr. John Bradley",male,40.2,5,1,728555,45.8515,NaN,C
+844,0,3,"Taylor, Mr. William Henry",male,21.2,3,5,693651,30.5215,NaN,C
+845,1,2,"Allen, Mr. Owen Harris",male,79.1,1,1,487245,67.3816,A150,C
+846,0,2,"Smith, Miss. Florence Briggs",female,29.0,7,5,190353,36.62,F27,Q
+847,0,1,"Braund, Miss. Florence Briggs",female,42.9,8,1,393819,18.6965,NaN,C
+848,1,2,"Cumings, Mrs. Lily May Peel",female,57.5,1,0,223061,25.1361,NaN,Q
+849,1,3,"Futrelle, Mr. John Bradley",male,33.1,8,4,927793,98.4638,NaN,Q
+850,1,1,"Smith, Miss. Florence Briggs",female,73.9,6,3,489044,56.1476,A65,C
+851,0,2,"Cumings, Mrs. Lily May Peel",female,24.0,3,2,106181,13.5927,NaN,S
+852,1,2,"Heikkinen, Miss. Florence Briggs",female,71.0,7,6,207554,59.752,A191,Q
+853,1,3,"Braund, Mr. Owen Harris",male,22.7,7,5,206191,61.61,E48,Q
+854,1,2,"Allen, Mr. Owen Harris",male,69.6,7,4,253442,51.0456,A33,Q
+855,1,1,"Cumings, Mr. Owen Harris",male,35.4,2,0,348995,17.2466,B16,S
+856,0,3,"Heikkinen, Mr. John Bradley",male,13.6,5,6,292889,35.7848,B3,Q
+857,0,1,"Clark, Mrs. John Bradley",female,18.4,6,3,946118,68.8515,NaN,S
+858,0,3,"Heikkinen, Mr. William Henry",male,75.0,4,5,294592,12.5104,NaN,S
+859,0,1,"Braund, Mr. John Bradley",male,58.3,2,0,116049,13.1697,B165,C
+860,1,1,"Allen, Mr. Owen Harris",male,40.1,6,6,681881,40.3934,B56,C
+861,0,3,"Cumings, Mr. Jacques Heath",male,72.1,7,3,364219,29.7227,A82,C
+862,0,1,"Cumings, Mr. John Bradley",male,33.1,2,2,962678,34.2807,NaN,S
+863,0,3,"Allen, Mr. John Bradley",male,25.0,5,3,965206,41.6833,NaN,S
+864,1,3,"Braund, Mr. William Henry",male,77.6,1,5,455048,17.7201,F38,S
+865,0,3,"Taylor, Mr. William Henry",male,28.2,4,5,811934,66.1117,NaN,Q
+866,1,3,"Clark, Mrs. John Bradley",female,27.0,7,4,620675,43.9097,A8,S
+867,0,2,"Brown, Mr. Jacques Heath",male,53.4,7,0,569505,65.3417,G189,C
+868,1,2,"Heikkinen, Mr. John Bradley",male,43.1,6,5,607490,67.149,F107,S
+869,1,1,"Smith, Mr. Owen Harris",male,42.8,8,2,761174,20.3969,NaN,C
+870,0,3,"Heikkinen, Mrs. Lily May Peel",female,55.7,4,2,871355,29.1771,NaN,S
+871,1,3,"Futrelle, Mrs. Lily May Peel",female,71.1,0,1,324677,28.8936,A164,S
+872,0,2,"Futrelle, Miss. Laina",female,8.7,6,2,647178,40.4821,C146,S
+873,0,1,"Heikkinen, Mr. William Henry",male,13.7,7,5,291776,57.233,D91,C
+874,1,3,"Taylor, Mr. William Henry",male,24.7,6,2,765806,17.9274,NaN,Q
+875,1,1,"Taylor, Mrs. John Bradley",female,29.9,1,1,213554,28.2129,NaN,Q
+876,1,1,"Cumings, Mr. John Bradley",male,22.3,6,0,602110,36.704,NaN,C
+877,0,2,"Brown, Mr. John Bradley",male,24.8,6,0,503371,33.613,B99,Q
+878,1,3,"Braund, Mr. John Bradley",male,43.0,3,2,560013,62.7299,NaN,C
+879,1,3,"Heikkinen, Mrs. John Bradley",female,11.5,1,1,108874,34.2678,NaN,Q
+880,1,1,"Heikkinen, Mr. William Henry",male,12.8,7,2,972748,48.4453,E55,Q
+881,0,1,"Smith, Mr. Owen Harris",male,59.4,6,4,805622,34.3039,A184,S
+882,0,1,"Futrelle, Mr. William Henry",male,66.6,3,3,185885,51.8378,NaN,Q
+883,0,2,"Futrelle, Miss. Laina",female,66.7,2,5,446356,50.3915,D175,Q
+884,0,2,"Brown, Mrs. Lily May Peel",female,59.8,1,6,409248,18.7431,NaN,C
+885,1,3,"Braund, Mrs. Lily May Peel",female,31.6,3,4,924963,14.4011,A198,C
+886,0,3,"Taylor, Mr. Jacques Heath",male,38.2,5,4,880342,69.5295,NaN,Q
+887,1,1,"Brown, Mrs. Lily May Peel",female,58.3,4,5,966065,72.8252,NaN,Q
+888,1,1,"Cumings, Mrs. Lily May Peel",female,9.7,6,0,831858,28.0387,NaN,C
+889,0,3,"Clark, Mrs. Lily May Peel",female,51.0,3,4,727420,54.0261,NaN,Q
+890,1,2,"Allen, Mr. William Henry",male,45.3,8,1,483032,35.4448,NaN,C
+891,0,3,"Cumings, Mr. Owen Harris",male,62.7,2,6,982757,76.4667,E41,S
+892,0,3,"Braund, Mr. Owen Harris",male,5.6,0,3,758632,26.3325,NaN,S
+893,1,2,"Allen, Mrs. John Bradley",female,3.6,4,5,811389,76.4383,NaN,S
+894,0,3,"Futrelle, Miss. Florence Briggs",female,10.3,5,1,126833,64.3667,A74,C
+895,0,3,"Cumings, Mr. Jacques Heath",male,35.3,8,6,432457,37.0869,NaN,Q
+896,0,1,"Smith, Mr. Owen Harris",male,33.0,1,0,789323,21.3775,NaN,C
+897,1,2,"Clark, Miss. Florence Briggs",female,5.0,8,1,997997,49.7124,G168,C
+898,1,2,"Futrelle, Miss. Laina",female,17.8,0,3,670680,18.7107,G82,Q
+899,0,3,"Brown, Mr. William Henry",male,23.9,4,2,742251,69.8615,F93,Q
+900,0,2,"Allen, Mr. Owen Harris",male,6.7,6,3,798873,84.1817,E137,S
+901,0,2,"Taylor, Mr. Owen Harris",male,66.4,6,2,279468,50.1527,A55,Q
+902,1,2,"Taylor, Miss. Laina",female,78.1,6,0,991910,74.743,NaN,Q
+903,1,2,"Cumings, Miss. Florence Briggs",female,29.7,8,1,124406,17.3337,NaN,S
+904,0,2,"Allen, Miss. Florence Briggs",female,71.3,0,3,348436,17.2161,C101,S
+905,0,2,"Futrelle, Mr. William Henry",male,11.7,2,1,355131,58.1504,E74,C
+906,1,1,"Brown, Mrs. Lily May Peel",female,30.3,4,1,574667,93.8929,NaN,S
+907,0,2,"Cumings, Mrs. Lily May Peel",female,3.4,1,2,302729,58.1866,NaN,C
+908,1,3,"Clark, Mrs. John Bradley",female,64.1,2,1,215269,87.2882,B36,S
+909,1,1,"Futrelle, Mrs. Lily May Peel",female,12.8,1,2,487925,25.3851,NaN,C
+910,1,1,"Cumings, Mrs. Lily May Peel",female,21.7,4,1,756650,75.6666,D135,S
+911,0,1,"Smith, Mr. Owen Harris",male,62.9,7,6,240603,99.7318,NaN,C
+912,0,1,"Futrelle, Miss. Laina",female,54.4,4,2,476741,92.2105,NaN,S
+913,0,1,"Clark, Mrs. Lily May Peel",female,43.3,0,2,926624,81.1114,NaN,C
+914,1,1,"Brown, Mr. Jacques Heath",male,74.0,1,6,905498,60.3574,D180,S
+915,0,1,"Futrelle, Mr. Jacques Heath",male,56.3,5,1,322201,59.909,NaN,C
+916,1,3,"Braund, Miss. Florence Briggs",female,75.9,2,6,103015,5.8135,C172,Q
+917,1,1,"Smith, Mr. William Henry",male,29.9,8,5,306189,14.3607,NaN,C
+918,1,3,"Cumings, Mrs. Lily May Peel",female,17.0,6,1,304455,35.05,E64,C
+919,1,3,"Heikkinen, Mr. Jacques Heath",male,52.5,1,2,926817,69.301,NaN,Q
+920,0,3,"Smith, Miss. Florence Briggs",female,23.9,6,2,990508,95.7519,NaN,Q
+921,0,2,"Smith, Miss. Florence Briggs",female,76.1,8,6,957803,87.5799,E193,Q
+922,0,2,"Clark, Mrs. Lily May Peel",female,37.6,7,0,431465,73.6746,NaN,Q
+923,0,3,"Heikkinen, Miss. Florence Briggs",female,74.7,3,6,328843,30.7469,G97,Q
+924,1,3,"Clark, Miss. Laina",female,50.3,8,0,296033,42.2776,B147,C
+925,0,3,"Smith, Mr. Owen Harris",male,45.9,4,1,694056,11.9619,E18,S
+926,0,3,"Heikkinen, Mr. William Henry",male,22.6,7,6,912311,78.2078,NaN,S
+927,1,3,"Cumings, Mr. William Henry",male,79.1,1,1,552734,67.4788,NaN,S
+928,0,1,"Clark, Mrs. John Bradley",female,62.2,1,3,341204,30.9114,NaN,S
+929,0,1,"Heikkinen, Mr. William Henry",male,74.6,5,4,122990,19.7452,A179,S
+930,1,1,"Brown, Mrs. John Bradley",female,72.9,8,2,252735,42.6153,NaN,S
+931,0,2,"Taylor, Miss. Florence Briggs",female,73.7,7,4,849787,15.8939,C1,Q
+932,1,2,"Brown, Miss. Florence Briggs",female,52.4,0,5,646840,30.5718,C175,Q
+933,1,1,"Allen, Mr. Owen Harris",male,9.8,2,4,920444,43.2233,NaN,S
+934,0,3,"Clark, Mrs. Lily May Peel",female,24.4,1,4,832206,91.1621,NaN,Q
+935,1,1,"Cumings, Mrs. John Bradley",female,23.5,3,1,305362,17.9723,NaN,Q
+936,0,2,"Heikkinen, Mrs. John Bradley",female,38.3,6,6,515633,53.185,G65,Q
+937,1,1,"Allen, Mr. Jacques Heath",male,4.6,1,3,344689,89.6548,NaN,S
+938,0,1,"Clark, Mr. Owen Harris",male,39.4,2,3,538377,57.7065,NaN,S
+939,0,3,"Braund, Mr. William Henry",male,41.0,3,6,661927,58.3286,NaN,Q
+940,1,2,"Allen, Mr. William Henry",male,53.8,1,1,471842,28.1975,NaN,C
+941,0,2,"Heikkinen, Mr. Owen Harris",male,17.0,8,2,975197,97.7623,B27,Q
+942,1,3,"Cumings, Mr. Owen Harris",male,54.2,2,3,539713,95.5738,NaN,Q
+943,1,3,"Brown, Mrs. John Bradley",female,63.6,4,4,119990,17.1991,NaN,C
+944,0,3,"Allen, Mrs. John Bradley",female,68.0,4,5,557175,26.963,B6,C
+945,1,3,"Heikkinen, Miss. Laina",female,78.0,8,6,133021,78.9359,G35,S
+946,1,2,"Braund, Mrs. John Bradley",female,23.6,7,1,685219,62.1609,NaN,C
+947,1,3,"Brown, Mr. Owen Harris",male,14.5,5,6,899446,21.1525,A160,C
+948,1,3,"Brown, Miss. Laina",female,17.2,6,1,734671,5.7596,E72,S
+949,1,3,"Smith, Mr. William Henry",male,7.6,6,6,527207,82.6009,F140,Q
+950,1,1,"Brown, Mr. William Henry",male,60.2,1,4,499776,82.5171,NaN,S
+951,1,2,"Clark, Mrs. John Bradley",female,67.1,7,0,587087,42.0764,NaN,C
+952,0,3,"Brown, Mr. William Henry",male,47.9,3,1,547176,9.5531,B141,Q
+953,1,3,"Cumings, Mrs. Lily May Peel",female,29.0,6,4,527172,51.8553,F177,S
+954,0,2,"Heikkinen, Mr. Owen Harris",male,10.6,0,6,301866,49.4224,NaN,Q
+955,1,3,"Braund, Miss. Laina",female,7.2,7,3,861350,76.6107,NaN,C
+956,1,2,"Taylor, Mr. Jacques Heath",male,15.1,2,1,339629,82.9702,NaN,Q
+957,1,3,"Brown, Mr. Jacques Heath",male,72.3,0,1,336666,79.4944,NaN,S
+958,0,1,"Taylor, Mr. Owen Harris",male,61.0,1,1,127748,88.5146,C184,Q
+959,1,1,"Clark, Miss. Florence Briggs",female,26.5,2,1,792047,21.2323,NaN,Q
+960,0,3,"Braund, Miss. Florence Briggs",female,39.6,0,5,336873,43.7094,E131,S
+961,1,3,"Clark, Miss. Florence Briggs",female,8.4,0,1,840215,31.2743,NaN,S
+962,1,2,"Cumings, Mrs. Lily May Peel",female,59.4,8,5,537063,84.505,NaN,S
+963,0,3,"Brown, Mr. Owen Harris",male,11.1,1,3,917322,59.5511,A120,Q
+964,0,3,"Clark, Miss. Florence Briggs",female,26.8,3,5,905021,5.6958,A164,S
+965,1,1,"Brown, Mr. John Bradley",male,9.0,5,5,803987,96.283,NaN,Q
+966,0,2,"Cumings, Mr. John Bradley",male,17.1,5,1,689221,24.4369,B161,Q
+967,0,1,"Heikkinen, Mrs. John Bradley",female,52.6,2,5,312500,32.6301,NaN,Q
+968,1,3,"Clark, Mrs. Lily May Peel",female,33.3,6,6,532737,49.1534,NaN,S
+969,0,3,"Allen, Mr. John Bradley",male,53.1,2,6,618892,97.7408,F55,Q
+970,0,1,"Heikkinen, Miss. Florence Briggs",female,12.1,2,5,911890,24.3581,C85,C
+971,0,1,"Taylor, Mrs. John Bradley",female,35.4,4,6,975716,12.0994,NaN,S
+972,0,1,"Futrelle, Mrs. John Bradley",female,58.6,1,6,451280,68.0819,B99,Q
+973,0,1,"Taylor, Mr. Owen Harris",male,42.9,8,6,222009,80.1497,A77,C
+974,0,1,"Braund, Mrs. John Bradley",female,57.7,2,6,980040,88.188,F47,S
+975,0,3,"Braund, Mr. William Henry",male,14.6,8,0,277942,92.796,NaN,Q
+976,1,2,"Braund, Miss. Florence Briggs",female,30.4,8,0,727506,40.4443,NaN,Q
+977,0,1,"Brown, Mrs. Lily May Peel",female,13.7,7,4,101414,38.5112,D83,S
+978,0,3,"Heikkinen, Mr. William Henry",male,41.8,4,6,753838,72.9783,E128,S
+979,0,3,"Taylor, Mrs. John Bradley",female,22.1,2,2,666434,22.4741,NaN,Q
+980,1,3,"Heikkinen, Mrs. Lily May Peel",female,17.4,0,3,850105,64.0657,NaN,S
+981,1,3,"Clark, Mrs. Lily May Peel",female,24.6,3,4,466456,49.479,B42,Q
+982,0,2,"Braund, Mr. William Henry",male,16.3,5,2,270804,47.5836,G31,S
+983,1,2,"Futrelle, Mr. Jacques Heath",male,21.9,8,2,161738,71.3999,NaN,S
+984,0,1,"Taylor, Miss. Laina",female,38.1,3,0,418873,59.4318,A59,Q
+985,0,1,"Clark, Mr. Owen Harris",male,5.7,5,5,797857,80.4767,NaN,S
+986,0,1,"Braund, Mr. Owen Harris",male,40.4,1,1,393813,89.8568,NaN,C
+987,0,2,"Allen, Mr. William Henry",male,33.1,3,2,662168,76.9768,D191,C
+988,1,1,"Taylor, Miss. Florence Briggs",female,74.5,1,5,341514,79.1289,NaN,C
+989,1,3,"Allen, Mr. John Bradley",male,9.7,1,6,811930,67.9515,NaN,Q
+990,1,1,"Brown, Mr. William Henry",male,61.1,8,2,379146,61.932,C194,S
+991,0,2,"Allen, Mr. William Henry",male,38.6,0,2,815323,22.6902,F66,Q
+992,1,3,"Smith, Mr. Owen Harris",male,13.1,7,5,414904,10.0699,E41,S
+993,1,1,"Clark, Mrs. Lily May Peel",female,64.7,4,0,700696,13.3705,B60,S
+994,0,3,"Clark, Mr. William Henry",male,15.3,3,6,319784,82.4248,D111,S
+995,1,3,"Clark, Mrs. John Bradley",female,51.5,7,1,325994,15.0527,NaN,S
+996,1,3,"Futrelle, Miss. Florence Briggs",female,31.4,7,5,747769,47.2284,D113,C
+997,1,3,"Smith, Mrs. John Bradley",female,74.9,8,0,738522,29.3329,NaN,C
+998,0,1,"Brown, Mr. John Bradley",male,37.4,8,5,719420,52.2064,F192,C
+999,1,3,"Allen, Mrs. John Bradley",female,64.8,4,3,444340,99.7429,C168,Q
+1000,1,1,"Cumings, Mr. Owen Harris",male,67.8,8,2,493144,99.1102,E169,S
